@@ -1,4 +1,4 @@
-<div class="facts" data-parallax="scroll" data-image-src="img/carousel-5.png">
+<div class="facts" data-parallax="scroll" data-image-src="img/topper.webp">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
