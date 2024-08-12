@@ -4,7 +4,7 @@
                     <div class="carousel-item">
                         <div class="carousel-img">
                             <!-- <img src="img/carousel-4.jpg" alt="Image"> -->
-                            <img src="img/gj2/ROSEMIN (37).jpg" alt="Image" />
+                            <img src="img/slider/women.webp" alt="Image" />
                         </div>
                         <div class="carousel-text">
                             <h1>Gender and Girls Empowerment SDG</h1>
