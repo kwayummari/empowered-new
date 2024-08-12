@@ -3,7 +3,6 @@
                 <div class="owl-carousel">
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <!-- <img src="img/carousel-4.jpg" alt="Image"> -->
                             <img src="img/slider/women.webp" alt="Image" />
                         </div>
                         <div class="carousel-text">
@@ -19,7 +18,6 @@
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <!-- <img src="img/community.png" alt="Image"> -->
                             <img src="img/slider/women2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
@@ -35,7 +33,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/gj2/ROSEMIN (39).jpg" alt="Image">
+                            <img src="img/slider/women1.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
                             <h1>Youth Opportunities, Jobs Creation and Entrepreneurship Skills</h1>
