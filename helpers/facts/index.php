@@ -24,7 +24,7 @@
                             <i class="flaticon-kindness"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up">1000</h3>
-                                <p>Youth Affected</p>
+                                <p>Women Affected</p>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <i class="flaticon-home"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up">100</h3>
-                                <p>Health Facilities</p>
+                                <p>House Holds Affected</p>
                             </div>
                         </div>
                     </div>
