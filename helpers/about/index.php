@@ -34,14 +34,12 @@
                             operate in Tanzania mainland.
                         </div>
                         <div id="tab-content-2" class="container tab-pane fade">
-                            Empowering individuals and communities to take control
-                            of their health through proper mechanism while breaking
-                            barriers that hinder gender equality and social justice.
+                            To empower women, girls and marginalized groups with correct
+                            knowledge and skills while creating an enabling environment
+                            for them to exercise their rights and fulfill their potentials.
                         </div>
                         <div id="tab-content-3" class="container tab-pane fade">
-                            To create a healthier and thriving society through comprehensive health
-                            promotion initiatives while ensuring all genders are treated with equal
-                            respect, dignity, and opportunity.
+                            Empowered women and girls enjoy their rights and fulfill their potentials.
                         </div>
                     </div>
                 </div>
