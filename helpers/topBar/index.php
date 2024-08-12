@@ -5,11 +5,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+255(0)719 744954/+255(0)752 581983</p>
+                                <p>+255(0) 767 439217</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>info@empoweredforchange.or.tz</p>
+                                <p>empoweredforchangetx@gmail.com</p>
                             </div>
                         </div>
                     </div>
