@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <div class="section-header">
                     <p>Learn About Us</p>
-                    <h2>Tanzania non-governmental organization</h2>
+                    <h2>EMPOWERED FOR CHANGE</h2>
                 </div>
                 <div class="about-tab">
                     <ul class="nav nav-pills nav-justified">
