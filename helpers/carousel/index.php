@@ -20,7 +20,7 @@
                     <div class="carousel-item">
                         <div class="carousel-img">
                             <!-- <img src="img/community.png" alt="Image"> -->
-                            <img src="img/gj2/GHF KIGOGO (5).jpg" alt="Image">
+                            <img src="img/slider/women2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
                             <h1>Community Health for Non Communicable Diseases</h1>
