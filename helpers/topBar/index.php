@@ -19,7 +19,7 @@
                                 <a href="https://x.com/E4Ctanzania?lang=en"><i class="fab fa-twitter"></i></a>
                                 <a href="https://www.facebook.com/E4Ctanzania/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.linkedin.com/Empowered for Change /"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://www.instagram.com/@E4Ctanzania/?hl=en"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/E4Ctanzania/?hl=en"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
