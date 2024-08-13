@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
             $final_name = time() . '-' . str_replace(" ", "-", basename($file));
             $status = "0";
             $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
-            $query->bind_param("ssiss", $title, $caption, $description, $status, $final_name);
+            $query->bind_param("sssss", $title, $caption, $description, $status, $final_name);
 
             if ($query->execute()) {
                 $productId = $query->insert_id;
