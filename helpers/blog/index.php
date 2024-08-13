@@ -38,7 +38,7 @@ $result = mysqli_query($connect, $query);
 
 <!-- Modal -->
 <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="blogModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="blogModalLabel">Blog Details</h5>
@@ -48,11 +48,12 @@ $result = mysqli_query($connect, $query);
                 <img id="modalImage" src="" alt="Blog Image" style="width: 100%; height: auto;">
                 <h3 id="modalTitle"></h3>
                 <h4 id="modalCaption"></h4>
-                <p id="modalDescription"></p>
+                <div id="modalDescription" style="overflow: auto;"></div>
             </div>
         </div>
     </div>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
@@ -73,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         modalTitle.textContent = title;
         modalCaption.textContent = caption;
-        modalDescription.textContent = description;
+        modalDescription.innerHTML = description; // Set HTML content
         modalImage.src = image;
     });
 });
