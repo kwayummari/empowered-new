@@ -30,9 +30,9 @@
     <!-- Donate Start -->
     <?php include 'helpers/partnership/index.php' ?>
     <!-- Donate End -->
-    <div class="causes">
-        <img src="img/roles/2.jpg" alt="Image" width="100%">
-    </div>
+    <!-- Blog Start -->
+    <?php include 'helpers/blog/index.php' ?>
+    <!-- Blog End -->
     <!-- Team Start -->
     <?php include 'helpers/team/index.php' ?>
     <!-- Team End -->
@@ -54,8 +54,8 @@
 
     <!-- Pre Loader -->
     <div id="loader" class="show">
-            <div class="loader"></div>
-        </div>
+        <div class="loader"></div>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
