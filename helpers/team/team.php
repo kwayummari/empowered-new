@@ -34,8 +34,8 @@ if (isset($_GET['member'])) {
 <div class="team">
     <div class="container">
         <div class="section-header text-center">
-            <p>Meet Our Board Members</p>
-            <h2>Awesome guys behind our activities</h2>
+            <p>Meet Our Team Members</p>
+            <h2>Awesome guys behind our success</h2>
         </div>
         <div class="row">
             <?php foreach ($teamMembers as $index => $member) : ?>
