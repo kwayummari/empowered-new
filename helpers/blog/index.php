@@ -1,6 +1,6 @@
 <?php
-include '../../admin/connection/index.php';
-
+// include '../../admin/connection/index.php';
+$connect = $db = mysqli_connect('localhost', 'u976524705_e4c', 'Gudboy24@', 'u976524705_e4c');
 // Fetch blogs from the database
 $query = "SELECT * FROM blogs";
 $result = mysqli_query($connect, $query);
