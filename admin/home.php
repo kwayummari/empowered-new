@@ -9,7 +9,7 @@ $query = "SELECT * FROM blogs";
 $result = mysqli_query($connect, $query);
 $count = mysqli_fetch_assoc($result);
 $total_blogs = mysqli_num_rows($result);
-$query = "select * from users";
+$query = "select * from user";
 $result4 = mysqli_query($connect, $query);
 ?>
 
