@@ -1,78 +1,81 @@
 <div class="team">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Meet Our Team</p>
-                <h2>Awesome guys behind our charity activities</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/person1.png" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>LIGHTNESS</h2>
-                            <p>Executive Director</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Meet Our Board Members</p>
+            <h2>Awesome guys behind our activities</h2>
+        </div>
+        <div class="row">
+            <!-- Reusable team member component -->
+            <div class="col-lg-3 col-md-6" v-for="member in teamMembers" :key="member.name">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img :src="member.image" alt="Team Image">
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/person1.png" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Lizzy</h2>
-                            <p>Program Manager</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/person1.png" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>MALISA</h2>
-                            <p>Project Coordinator</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/person1.png" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Jmatata</h2>
-                            <p>Communications Officer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                    <div class="team-text">
+                        <h2>{{ member.name }}</h2>
+                        <p>{{ member.role }}</p>
+                        <div class="team-social">
+                            <a v-for="social in member.socialLinks" :key="social.platform" :href="social.link">
+                                <i :class="`fab fa-${social.platform}`"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<script>
+    const app = new Vue({
+        el: '.team',
+        data: {
+            teamMembers: [
+                {
+                    name: "Judith Justine",
+                    role: "Executive Director",
+                    image: "img/person1.png",
+                    socialLinks: [
+                        { platform: "twitter", link: "#" },
+                        { platform: "facebook-f", link: "#" },
+                        { platform: "linkedin-in", link: "#" },
+                        { platform: "instagram", link: "#" },
+                    ]
+                },
+                {
+                    name: "Lizzy",
+                    role: "Program Manager",
+                    image: "img/person1.png",
+                    socialLinks: [
+                        { platform: "twitter", link: "#" },
+                        { platform: "facebook-f", link: "#" },
+                        { platform: "linkedin-in", link: "#" },
+                        { platform: "instagram", link: "#" },
+                    ]
+                },
+                {
+                    name: "MALISA",
+                    role: "Project Coordinator",
+                    image: "img/person1.png",
+                    socialLinks: [
+                        { platform: "twitter", link: "#" },
+                        { platform: "facebook-f", link: "#" },
+                        { platform: "linkedin-in", link: "#" },
+                        { platform: "instagram", link: "#" },
+                    ]
+                },
+                {
+                    name: "Jmatata",
+                    role: "Communications Officer",
+                    image: "img/person1.png",
+                    socialLinks: [
+                        { platform: "twitter", link: "#" },
+                        { platform: "facebook-f", link: "#" },
+                        { platform: "linkedin-in", link: "#" },
+                        { platform: "instagram", link: "#" },
+                    ]
+                },
+            ]
+        }
+    });
+</script>
