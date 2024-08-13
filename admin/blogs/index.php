@@ -1,14 +1,13 @@
 <?php
 session_start();
-if (!isset($_SESSION['userEmail'], $_SESSION['userPhone'], $_SESSION['userFullName'], $_SESSION['isSeller'], $_SESSION['userId'])) {
+if (!isset($_SESSION['id'], $_SESSION['role'], $_SESSION['username'], $_SESSION['name'])) {
   header("Location: ../../../../index.php");
   exit();
 }
-$email = $_SESSION['userEmail'];
-$phone = $_SESSION['userPhone'];
-$full_name = $_SESSION['userFullName'];
-$isSeller = $_SESSION['isSeller'];
-$userId = $_SESSION['userId'];
+$id = $_SESSION['id'];
+$role = $_SESSION['role'];
+$username = $_SESSION['username'];
+$name = $_SESSION['name'];
 include '../connection/index.php';
 $query = "SELECT p.*, c.name as categoryName FROM products p JOIN categories c ON p.categoryId = c.id WHERE p.sellerId = ?";
 $stmt = $connect->prepare($query);
