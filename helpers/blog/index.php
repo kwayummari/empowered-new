@@ -28,8 +28,7 @@ $result = mysqli_query($connect, $query);
                             <p><?php echo htmlspecialchars($blog['caption']); ?></p>
                         </div>
                         <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
+                            <p><i class="fa fa-user"></i><a href="#">EMPOWERED FOR CHANGE</a></p>
                         </div>
                     </div>
                 </div>
