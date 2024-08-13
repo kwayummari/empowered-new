@@ -34,7 +34,7 @@
                 {
                     name: "Judith Justine",
                     role: "Executive Director",
-                    image: "img/person1.png",
+                    image: "img/topper.webp",
                     socialLinks: [
                         { platform: "twitter", link: "#" },
                         { platform: "facebook-f", link: "#" },
@@ -45,7 +45,7 @@
                 {
                     name: "Lizzy",
                     role: "Program Manager",
-                    image: "img/person1.png",
+                    image: "img/topper.webp",
                     socialLinks: [
                         { platform: "twitter", link: "#" },
                         { platform: "facebook-f", link: "#" },
@@ -56,7 +56,7 @@
                 {
                     name: "MALISA",
                     role: "Project Coordinator",
-                    image: "img/person1.png",
+                    image: "img/topper.webp",
                     socialLinks: [
                         { platform: "twitter", link: "#" },
                         { platform: "facebook-f", link: "#" },
@@ -67,7 +67,7 @@
                 {
                     name: "Jmatata",
                     role: "Communications Officer",
-                    image: "img/person1.png",
+                    image: "img/topper.webp",
                     socialLinks: [
                         { platform: "twitter", link: "#" },
                         { platform: "facebook-f", link: "#" },
