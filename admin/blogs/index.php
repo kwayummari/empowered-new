@@ -31,7 +31,6 @@ $result4 = $stmt->get_result();
               <tr>
                 <th scope="col">Title</th>
                 <th scope="col">Caption</th>
-                <th scope="col">Description</th>
                 <th scope="col">Image</th>
                 <th scope="col">Status</th>
                 <th scope="col">Actions</th>
@@ -44,7 +43,6 @@ $result4 = $stmt->get_result();
                 <tr>
                   <td><?php echo htmlspecialchars($rows4['title']); ?></td>
                   <td><?php echo htmlspecialchars($rows4['caption']); ?></td>
-                  <td><?php echo htmlspecialchars($rows4['description']); ?></td>
                   <td><img src="../../assets/images/<?php echo htmlspecialchars($rows4['image']); ?>" alt="Profile" class="rounded-circle" style="height: 50px; width: 50px"></td>
                   <td>
                     <?php echo $rows4['status'] == 1 ? 'Active' : 'Inactive'; ?>
