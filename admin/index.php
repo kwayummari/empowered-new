@@ -86,7 +86,7 @@
               </div>
 
               <div class="credits">
-                Designed and Maintained by <a href="https://www.serengetibytes.com">Serengeti Bytes</a>
+                Designed and Maintained by <a href="https://aurorawavelabs.com/">AURORAWAVE LABS</a>
               </div>
 
             </div>
