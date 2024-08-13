@@ -2,7 +2,6 @@
 session_start();
 $name = $_SESSION['name'];
 $username = $_SESSION['username'];
-$full_name = $_SESSION['userFullName'];
  ?>
 <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center justify-content-between">
