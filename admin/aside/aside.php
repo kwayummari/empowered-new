@@ -13,17 +13,17 @@
       <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
           <a href="products/">
-            <i class="bi bi-circle"></i><span>Your Products</span>
+            <i class="bi bi-circle"></i><span>Your Blogs</span>
           </a>
         </li>
         <li>
           <a href="sales/">
-            <i class="bi bi-circle"></i><span>Your sales</span>
+            <i class="bi bi-circle"></i><span>Your Internship Posts</span>
           </a>
         </li>
         <li>
           <a href="profile/">
-            <i class="bi bi-circle"></i><span>Business profile</span>
+            <i class="bi bi-circle"></i><span>Your Jobs Adverts</span>
           </a>
         </li>
       </ul>
