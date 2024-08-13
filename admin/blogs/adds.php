@@ -11,7 +11,6 @@ if (isset($_POST['submit'])) {
     if (isset($_FILES["cv"]) && $_FILES["cv"]["error"] == 0) {
         $allowedTypes = ['image/jpg', 'image/png', 'image/gif', 'image/webp'];
         $fileType = mime_content_type($_FILES['cv']['tmp_name']);
-        echo "Detected MIME type: " . $fileType;
         if (in_array($fileType, $allowedTypes)) {
             $file = $_FILES["cv"]["name"];
             $path = $_FILES['cv']['tmp_name'];
@@ -19,7 +18,8 @@ if (isset($_POST['submit'])) {
             $final_name = time() . '-' . str_replace(" ", "-", basename($file));
             
             $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, '0', ?)");
-            $query->bind_param("ssis", $title, $caption, $description, $sellerId, $final_name);
+            $query->bind_param("ssis", $title, $caption, $description, $final_name);
+
             
             if ($query->execute()) {
                 $productId = $query->insert_id;
