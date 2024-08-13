@@ -29,8 +29,11 @@
         <!-- Facts Start -->
         <?php include 'helpers/facts/index.php' ?>
         <!-- Facts End -->
-        <!-- Team Start -->
+        <!-- Board Start -->
         <?php include 'helpers/team/index.php' ?>
+        <!-- Board End -->
+         <!-- Team Start -->
+        <?php include 'helpers/team/team.php' ?>
         <!-- Team End -->
         <!-- Footer Start -->
         <?php include 'helpers/footer/index.php' ?>
