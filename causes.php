@@ -25,30 +25,24 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
-        
         <!-- Service Start -->
         <?php include 'helpers/coreValues/index.php' ?>
         <!-- Service End -->
-        
-
         <!-- Causes Start -->
         <?php include 'helpers/volunteer/index.php' ?>
         <!-- Causes End -->
-
-
+         <!-- What we do Start -->
+        <?php include 'helpers/whatWeDo/index.php' ?>
+        <!-- What we do End -->
         <!-- Footer Start -->
         <?php include 'helpers/footer/index.php' ?>
         <!-- Footer End -->
-
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
         <!-- Pre Loader -->
         <!-- <div id="loader" class="show">
             <div class="loader"></div>
         </div> -->
-
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
