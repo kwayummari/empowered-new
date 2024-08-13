@@ -3,21 +3,19 @@ session_start();
 include '../connection/index.php';
 $id = $_GET['id'];
 $query = "SELECT * FROM blogs WHERE id = '$id'";
-$result = mysqli_query($connect, $query);
-$blog = mysqli_fetch_assoc($result);
+$result4 = mysqli_query($connect, $query);
+$blog = mysqli_fetch_assoc($result4);
 
 if (isset($_POST['submit'])) {
     $title = $_POST['title'];
     $caption = $_POST['caption'];
     $description = $_POST['description'];
-    $status = $_POST['status']; // Assuming status is being updated
-
     $file = $_FILES["cv"]["name"];
     $path = $_FILES['cv']['tmp_name'];
     $folder = "../../img/blogs/";
 
     if ($file) {
-        $final_name = time() . '-' . str_replace(" ", "-", basename($file));
+        $final_name = time() . '-' . str_replace(" ", "-", $file);
         move_uploaded_file($path, $folder . $final_name);
         $imageQuery = ", image='$final_name'";
     } else {
@@ -27,10 +25,10 @@ if (isset($_POST['submit'])) {
     $updateQuery = "UPDATE blogs SET 
         title='$title', 
         caption='$caption', 
-        description='$description', 
-        status='$status' 
+        description='$description' 
         $imageQuery 
         WHERE id='$id'";
+    
     $update = mysqli_query($connect, $updateQuery);
 
     if ($update) {
@@ -42,7 +40,6 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <?php include "../head/head2.php" ?>
@@ -75,18 +72,9 @@ if (isset($_POST['submit'])) {
                 </div>
               </div>
               <div class="row mb-3">
-                <label for="inputStatus" class="col-sm-2 col-form-label">Status</label>
-                <div class="col-sm-10">
-                  <select class="form-select" name="status">
-                    <option value="0" <?php echo ($blog['status'] == 0) ? 'selected' : ''; ?>>Draft</option>
-                    <option value="1" <?php echo ($blog['status'] == 1) ? 'selected' : ''; ?>>Published</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row mb-3">
                 <label for="inputImage" class="col-sm-2 col-form-label">Main Image</label>
                 <div class="col-sm-10">
-                  <input class="form-control" type="file" name="cv" id="file_id" onchange="upload_check();">
+                  <input class="form-control" type="file" name="cv" id="file_id">
                   <?php if ($blog['image']) { ?>
                     <img src="../../img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Current Image" style="margin-top: 10px; max-width: 200px;">
                   <?php } ?>
@@ -104,7 +92,9 @@ if (isset($_POST['submit'])) {
     </section>
   </main>
   <?php include "../footer/footer.php" ?>
-  <script src="ckeditor/ckeditor.js"></script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/ckeditor/ckeditor.js"></script>
   <script>
     CKEDITOR.replace('editor', {
       filebrowserUploadUrl: 'upload.php',
