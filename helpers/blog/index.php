@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <?php
-            // Fetch blogs from the database
+            include 'admin/connection/index.php';
             $query = "SELECT * FROM blogs";
             $result = mysqli_query($connect, $query);
             while ($blog = mysqli_fetch_assoc($result)) {
