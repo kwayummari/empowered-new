@@ -1,15 +1,5 @@
 <?php
 session_start();
-include '../connection/index.php';
-$query = "SELECT id, name FROM categories";
-$result = mysqli_query($connect, $query);
-if (!$result) {
-    die("Database query failed: " . mysqli_error($connect));
-}
-$categories = [];
-while ($row = mysqli_fetch_assoc($result)) {
-    $categories[] = $row;
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,16 +54,6 @@ while ($row = mysqli_fetch_assoc($result)) {
                   <label for="inputNumber" class="col-sm-2 col-form-label">Main Image</label>
                   <div class="col-sm-10">
                     <input class="form-control" type="file" name="cv" value="file" id="formFile">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <label for="category" class="col-sm-2 col-form-label">Category</label>
-                  <div class="col-sm-10">
-                    <select class="form-control" name="category" id="category">
-                      <?php foreach ($categories as $category) { ?>
-                        <option value="<?php echo htmlspecialchars($category['id']); ?>"><?php echo htmlspecialchars($category['name']); ?></option>
-                      <?php } ?>
-                    </select>
                   </div>
                 </div>
                 <div class="row mb-3">
