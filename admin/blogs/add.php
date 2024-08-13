@@ -27,15 +27,9 @@ session_start();
             <form method="POST" target="_top" autocomplete="on" enctype="multipart/form-data">
               <div class="row mb-3">
                 <div class="row mb-3">
-                  <label for="inputText" class="col-sm-2 col-form-label">Name</label>
+                  <label for="inputText" class="col-sm-2 col-form-label">Title</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="name">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <label for="inputText" class="col-sm-2 col-form-label">Amount</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="amount">
+                    <input type="text" class="form-control" name="title">
                   </div>
                 </div>
                 <div class="row mb-3">
