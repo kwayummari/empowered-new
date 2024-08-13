@@ -72,12 +72,6 @@ if (isset($_POST['submit'])) {
                 </div>
               </div>
               <div class="row mb-3">
-                <label for="inputDescription" class="col-sm-2 col-form-label">Description</label>
-                <div class="col-sm-10">
-                  <textarea rows="20" id="editor" class="form-control" name="description"><?php echo htmlspecialchars($blog['description']); ?></textarea>
-                </div>
-              </div>
-              <div class="row mb-3">
                 <label for="inputImage" class="col-sm-2 col-form-label">Main Image</label>
                 <div class="col-sm-10">
                   <input class="form-control" type="file" name="cv" id="file_id">
