@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
         if (in_array($fileType, $allowedTypes)) {
             $file = $_FILES["cv"]["name"];
             $path = $_FILES['cv']['tmp_name'];
-            $folder = "../../assets/images/";
+            $folder = "../../img/blogs";
             $final_name = time() . '-' . str_replace(" ", "-", basename($file));
             
             $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, '0', ?)");
