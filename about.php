@@ -8,8 +8,6 @@
         <!-- Nav Bar Start -->
         <?php include 'helpers/navbar/about.php' ?>
         <!-- Nav Bar End -->
-        
-        
         <!-- Page Header Start -->
         <div class="page-header">
             <div class="container">
@@ -25,29 +23,18 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
-
         <!-- About Start -->
         <?php include 'helpers/about/index.php' ?>
         <!-- About End -->
-        
-        
         <!-- Facts Start -->
         <?php include 'helpers/facts/index.php' ?>
         <!-- Facts End -->
-
-
         <!-- Team Start -->
         <?php include 'helpers/team/index.php' ?>
         <!-- Team End -->
-        
-        
-
-
         <!-- Footer Start -->
         <?php include 'helpers/footer/index.php' ?>
         <!-- Footer End -->
-
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         
