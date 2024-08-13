@@ -1,5 +1,5 @@
 <div class="causes">
-    <img src="img/roles/1.jpg" alt="Image" width="100%">
+    <img src="img/structure.webp" alt="Image" width="100%">
             <!-- <div class="container">
                 <div class="section-header text-center">
                     <p>Our Projects</p>
