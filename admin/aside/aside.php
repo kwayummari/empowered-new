@@ -12,7 +12,7 @@
       </a>
       <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-          <a href="products/">
+          <a href="blogs/">
             <i class="bi bi-circle"></i><span>Your Blogs</span>
           </a>
         </li>
