@@ -25,7 +25,7 @@ $result4 = $stmt->get_result();
     <div class="col-12">
       <div class="card recent-sales overflow-auto">
         <div class="card-body">
-          <h5 class="card-title">All Data <span>| Today</span> <a href="add.php"><span class="badge bg-success text-white">+ Add Products</span></a></h5>
+          <h5 class="card-title">All Data <span>| Today</span> <a href="add.php"><span class="badge bg-success text-white">+ Add Blog</span></a></h5>
           <table class="table table-borderless datatable">
             <thead>
               <tr>
