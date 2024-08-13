@@ -30,10 +30,10 @@
     <?php include 'helpers/partnership/index.php' ?>
     <!-- Donate End -->
     <!-- Blog Start -->
-    <!-- <?php include 'helpers/blog/index.php' ?> -->
+    <?php include 'helpers/blog/index.php' ?>
     <!-- Blog End -->
     <!-- Team Start -->
-    <?php include 'helpers/team/index.php' ?>
+    <!-- <?php include 'helpers/team/index.php' ?> -->
     <!-- Team End -->
     <!-- Volunteer Start -->
     <?php include 'helpers/volunteer/index.php' ?>
