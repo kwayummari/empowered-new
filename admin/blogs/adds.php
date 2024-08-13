@@ -1,33 +1,40 @@
 <?php
-ob_start(); // Start output buffering
+ob_start();
+session_start();
 include '../connection/index.php';
 
 if (isset($_POST['submit'])) {
-    $sellerId = $_SESSION['userId'];
-    $name = mysqli_real_escape_string($connect, trim($_POST['name']));
-    $amount = mysqli_real_escape_string($connect, trim($_POST['amount']));
+    $title = mysqli_real_escape_string($connect, trim($_POST['title']));
     $caption = mysqli_real_escape_string($connect, trim($_POST['caption']));
     $description = mysqli_real_escape_string($connect, trim($_POST['description']));
-    $categoryId = mysqli_real_escape_string($connect, trim($_POST['category']));
+    
     if (isset($_FILES["cv"]) && $_FILES["cv"]["error"] == 0) {
-        $file = $_FILES["cv"]["name"];
-        $path = $_FILES['cv']['tmp_name'];
-        $folder = "../../assets/images/";
-        $final_name = str_replace(" ", "-", $file);
-        $query = $connect->prepare("INSERT INTO products (name, amount, caption, description, categoryId, sellerId, status, image) VALUES (?, ?, ?, ?, ?, ?, '0', ?)");
-        $query->bind_param("ssssiss", $name, $amount, $caption, $description, $categoryId, $sellerId, $final_name);
-        if ($query->execute()) {
-            $productId = $query->insert_id;
-            if (move_uploaded_file($path, $folder . $final_name)) {
-                echo "<meta http-equiv='refresh' content='0;url=gallery.php?productId=$productId'>";
-                exit;
+        $allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
+        $fileType = mime_content_type($_FILES['cv']['tmp_name']);
+        if (in_array($fileType, $allowedTypes)) {
+            $file = $_FILES["cv"]["name"];
+            $path = $_FILES['cv']['tmp_name'];
+            $folder = "../../assets/images/";
+            $final_name = time() . '-' . str_replace(" ", "-", basename($file));
+            
+            $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, '0', ?)");
+            $query->bind_param("ssis", $title, $caption, $description, $sellerId, $final_name);
+            
+            if ($query->execute()) {
+                $productId = $query->insert_id;
+                if (move_uploaded_file($path, $folder . $final_name)) {
+                    header("Location: index.php");
+                    exit;
+                } else {
+                    echo "Failed to upload image.";
+                }
             } else {
-                echo "Failed to upload image.";
+                echo "Failed to add blog: " . $query->error;
             }
+            $query->close();
         } else {
-            echo "Failed to add product: " . $query->error;
+            echo "Invalid file type. Please upload a JPEG, PNG, or GIF image.";
         }
-        $query->close();
     } else {
         echo "Invalid file upload.";
     }

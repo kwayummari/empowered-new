@@ -9,7 +9,7 @@ $role = $_SESSION['role'];
 $username = $_SESSION['username'];
 $name = $_SESSION['name'];
 include '../connection/index.php';
-$query = "SELECT * FROM blogs";
+$query = "SELECT * FROM blogs ORDER BY id DESC";
 $stmt = $connect->prepare($query);
 $stmt->execute();
 $result4 = $stmt->get_result();
