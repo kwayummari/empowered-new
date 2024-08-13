@@ -1,5 +1,5 @@
 <?php
-include '../connection/index.php';
+include '../../admin/connection/index.php';
 
 // Fetch blogs from the database
 $query = "SELECT * FROM blogs";
