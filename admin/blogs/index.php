@@ -9,9 +9,8 @@ $role = $_SESSION['role'];
 $username = $_SESSION['username'];
 $name = $_SESSION['name'];
 include '../connection/index.php';
-$query = "SELECT p.*, c.name as categoryName FROM products p JOIN categories c ON p.categoryId = c.id WHERE p.sellerId = ?";
+$query = "SELECT * FROM blogs";
 $stmt = $connect->prepare($query);
-$stmt->bind_param("i", $userId);
 $stmt->execute();
 $result4 = $stmt->get_result();
 ?>
@@ -30,10 +29,9 @@ $result4 = $stmt->get_result();
           <table class="table table-borderless datatable">
             <thead>
               <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Title</th>
                 <th scope="col">Caption</th>
-                <th scope="col">Category</th>
+                <th scope="col">Description</th>
                 <th scope="col">Image</th>
                 <th scope="col">Status</th>
                 <th scope="col">Actions</th>
@@ -44,17 +42,15 @@ $result4 = $stmt->get_result();
               while ($rows4 = $result4->fetch_assoc()) {
               ?>
                 <tr>
-                  <td><?php echo htmlspecialchars($rows4['name']); ?></td>
-                  <td><?php echo htmlspecialchars($rows4['amount']); ?></td>
+                  <td><?php echo htmlspecialchars($rows4['title']); ?></td>
                   <td><?php echo htmlspecialchars($rows4['caption']); ?></td>
-                  <td><?php echo htmlspecialchars($rows4['categoryName']); ?></td>
+                  <td><?php echo htmlspecialchars($rows4['description']); ?></td>
                   <td><img src="../../assets/images/<?php echo htmlspecialchars($rows4['image']); ?>" alt="Profile" class="rounded-circle" style="height: 50px; width: 50px"></td>
                   <td>
                     <?php echo $rows4['status'] == 1 ? 'Active' : 'Inactive'; ?>
                   </td>
                   <td>
                     <a href="update.php?id=<?php echo urlencode($rows4['id']); ?>"><i class="bi bi-pen" style="color: green; padding-right: 15px;"></i></a>
-                    <a href="update_gallery.php?productId=<?php echo urlencode($rows4['id']); ?>"><i class="bi bi-images" style="color: green; padding-right: 15px;"></i></a>
                     <a href="toggle_status.php?id=<?php echo urlencode($rows4['id']); ?>"><i class="bi bi-toggle2-on" style="color: blue; padding-right: 15px;"></i></a>
                     <a href="delete.php?id=<?php echo urlencode($rows4['id']); ?>"><i class="bi bi-archive-fill" style="color: red;"></i></a>
                   </td>
