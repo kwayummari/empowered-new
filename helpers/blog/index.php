@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC";
+$query = "SELECT * FROM blogs ORDER BY id DESC LIMIT 3";
 $result = mysqli_query($connect, $query);
 ?>
 
