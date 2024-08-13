@@ -1,6 +1,8 @@
 <?php
-include 'admin/connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC";
+include '../connection/index.php';
+
+// Fetch blogs from the database
+$query = "SELECT * FROM blogs";
 $result = mysqli_query($connect, $query);
 ?>
 
@@ -14,15 +16,18 @@ $result = mysqli_query($connect, $query);
         <div class="row">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
                 <div class="col-lg-4">
-                    <div class="blog-item" data-bs-toggle="modal" data-bs-target="#blogModal" data-title="<?php echo htmlspecialchars($blog['title']); ?>" data-caption="<?php echo htmlspecialchars($blog['caption']); ?>" data-description="<?php echo htmlspecialchars($blog['description']); ?>" data-image="img/blogs/<?php echo htmlspecialchars($blog['image']); ?>">
+                    <div class="blog-item" 
+                         data-bs-toggle="modal" data-bs-target="#blogModal"
+                         data-title="<?php echo htmlspecialchars($blog['title']); ?>"
+                         data-caption="<?php echo htmlspecialchars($blog['caption']); ?>"
+                         data-description="<?php echo htmlspecialchars($blog['description']); ?>"
+                         data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>">
                         <div class="blog-img">
-                            <img src="img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Image">
+                            <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#"><?php echo htmlspecialchars($blog['title']); ?></a></h3>
-                            <p>
-                                <?php echo htmlspecialchars($blog['caption']); ?>
-                            </p>
+                            <p><?php echo htmlspecialchars($blog['caption']); ?></p>
                         </div>
                         <div class="blog-meta">
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
@@ -54,14 +59,13 @@ $result = mysqli_query($connect, $query);
     </div>
 </div>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var blogModal = document.getElementById('blogModal');
 
     blogModal.addEventListener('show.bs.modal', function (event) {
-        var button = event.relatedTarget; // Button that triggered the modal
+        var button = event.relatedTarget;
         var title = button.getAttribute('data-title');
         var caption = button.getAttribute('data-caption');
         var description = button.getAttribute('data-description');
@@ -74,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         modalTitle.textContent = title;
         modalCaption.textContent = caption;
-        modalDescription.innerHTML = description; // Set HTML content
+        modalDescription.innerHTML = description;
         modalImage.src = image;
     });
 });
