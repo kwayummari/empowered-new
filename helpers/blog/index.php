@@ -1,8 +1,6 @@
 <?php
-include '../connection/index.php';
-
-// Fetch blogs from the database
-$query = "SELECT * FROM blogs";
+include 'admin/connection/index.php';
+$query = "SELECT * FROM blogs ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
 ?>
 
