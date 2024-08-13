@@ -1,10 +1,8 @@
 <?php
 session_start();
-$email = $_SESSION['userEmail'];
-$phone = $_SESSION['userPhone'];
+$name = $_SESSION['name'];
+$username = $_SESSION['username'];
 $full_name = $_SESSION['userFullName'];
-$isSeller = $_SESSION['isSeller'];
-$userId = $_SESSION['userId'];
  ?>
 <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center justify-content-between">
@@ -22,9 +20,9 @@ $userId = $_SESSION['userId'];
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6><?php echo $email;?></h6>
-              <h6>+255<?php echo $phone;?></h6>
-              <span>Business owner</span>
+              <h6><?php echo $name;?></h6>
+              <h6><?php echo $username;?></h6>
+              <span>Super Admin</span>
             </li>
             <li>
               <hr class="dropdown-divider">
