@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $title = mysqli_real_escape_string($connect, trim($_POST['title']));
     $caption = mysqli_real_escape_string($connect, trim($_POST['caption']));
     $description = mysqli_real_escape_string($connect, trim($_POST['description']));
-    
+
     if (isset($_FILES["cv"]) && $_FILES["cv"]["error"] == 0) {
         $allowedTypes = ['image/jpg', 'image/png', 'image/gif', 'image/webp'];
         $fileType = mime_content_type($_FILES['cv']['tmp_name']);
@@ -18,9 +18,8 @@ if (isset($_POST['submit'])) {
             $final_name = time() . '-' . str_replace(" ", "-", basename($file));
             $status = "0";
             $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
-            $query->bind_param("ssis", $title, $caption, $description, $status, $final_name);
+            $query->bind_param("ssiss", $title, $caption, $description, $status, $final_name);
 
-            
             if ($query->execute()) {
                 $productId = $query->insert_id;
                 if (move_uploaded_file($path, $folder . $final_name)) {
