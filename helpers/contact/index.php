@@ -5,7 +5,7 @@
                 <h2>Contact for any query</h2>
             </div>
             <div class="contact-img">
-                <img src="img/gj2/0R4A9175.jpg" alt="Image">
+                <img src="img/topper2.webp" alt="Image">
             </div>
             <div class="contact-form">
                 <div id="success"></div>
