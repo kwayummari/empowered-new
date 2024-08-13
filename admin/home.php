@@ -1,24 +1,17 @@
 <?php
 session_start();
-$user_id = $_SESSION['userId'];
-$role = $_SESSION['isSeller'];
-$username = $_SESSION['name'];
-$userEmail = $_SESSION['userEmail'];
-$userPhone = $_SESSION['userPhone'];
-$userId = $_SESSION['userFullName'];
+$id = $_SESSION['id'];
+$role = $_SESSION['role'];
+$username = $_SESSION['username'];
+$name = $_SESSION['name'];
 include 'connection/index.php';
-$query = "SELECT * FROM products WHERE sellerId = '$user_id'";
+$query = "SELECT * FROM blogs";
 $result = mysqli_query($connect, $query);
 $count = mysqli_fetch_assoc($result);
-$total_products = mysqli_num_rows($result);
-
+$total_blogs = mysqli_num_rows($result);
 $query = "select * from users";
 $result4 = mysqli_query($connect, $query);
-
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -55,7 +48,7 @@ $result4 = mysqli_query($connect, $query);
                     <i class="bi bi-people"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_products ?></h6>
+                    <h6><?php echo $total_blogs ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
                   </div>
                 </div>
@@ -76,7 +69,7 @@ $result4 = mysqli_query($connect, $query);
                     <i class="bi bi-list"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_products ?></h6>
+                    <h6><?php echo $total_blogs ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>
@@ -98,7 +91,7 @@ $result4 = mysqli_query($connect, $query);
                     <i class="bi bi-arrow-return-left"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_products ?></h6>
+                    <h6><?php echo $total_blogs ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>
@@ -120,7 +113,7 @@ $result4 = mysqli_query($connect, $query);
                     <i class="bi bi-arrow-return-right"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_products ?></h6>
+                    <h6><?php echo $total_blogs ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>

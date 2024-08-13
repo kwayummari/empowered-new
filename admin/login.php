@@ -15,7 +15,8 @@ if (isset($_POST['submit'])) {
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['id'] = $user['id'];
         $_SESSION['role'] = $user['role'];
-        $_SESSION['name'] = $username;
+        $_SESSION['username'] = $username;
+        $_SESSION['name'] = $user['name'];
 
         if ($user['role'] == '1') {
             header("location: home.php");
