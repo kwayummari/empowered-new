@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
             $file = $_FILES["cv"]["name"];
             $path = $_FILES['cv']['tmp_name'];
             $folder = "../../img/blogs";
-            $final_name = time() . '-' . str_replace(" ", "-", basename($file));
+            $final_name = str_replace(" ", "-", basename($file));
             $status = "0";
             $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
             $query->bind_param("sssss", $title, $caption, $description, $status, $final_name);
