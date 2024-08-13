@@ -45,10 +45,10 @@
         <div class="container copyright">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; <a href="#">GHF</a>, All Right Reserved.</p>
+                    <p>&copy; <a href="#">E4C</a>, All Right Reserved.</p>
                 </div>
                 <div class="col-md-6">
-                    <p>Designed By <a href="https://serengetibytes.com">SERENGETI BYTES</a></p>
+                    <p>Designed By <a href="https://aurorawavelabs.com/">AURORAWAVE LABS</a></p>
                 </div>
             </div>
         </div>
