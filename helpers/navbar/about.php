@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand"><img src="img/topper.webp" alt=""></a>
+                <a href="index.php" class="navbar-brand"><img src="img/logo/logo.png" alt=""></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
