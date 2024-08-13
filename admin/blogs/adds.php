@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $description = mysqli_real_escape_string($connect, trim($_POST['description']));
     
     if (isset($_FILES["cv"]) && $_FILES["cv"]["error"] == 0) {
-        $allowedTypes = ['image/jpg', 'image/png', 'image/gif'];
+        $allowedTypes = ['image/jpg', 'image/png', 'image/gif', 'image/webp'];
         $fileType = mime_content_type($_FILES['cv']['tmp_name']);
         echo "Detected MIME type: " . $fileType;
         if (in_array($fileType, $allowedTypes)) {
