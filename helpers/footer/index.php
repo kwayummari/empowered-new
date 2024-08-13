@@ -4,15 +4,15 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-contact">
                         <h2>Our Head Office</h2>
-                        <p><i class="fa fa-map-marker-alt"></i>Kasembe Street, Kinondoni Area, Near High Court Labor Division, Dar Es Salaam, Tanzania. </p>
-                        <p><i class="fa fa-phone-alt"></i>+255(0)719 744954/+255(0)752 581983</p>
-                        <p><i class="fa fa-envelope"></i>info@ghf.or.tz</p>
+                        <p><i class="fa fa-map-marker-alt"></i>Plot number 640 Block B Sinza, Zinga Street, Sinza B, Ubungo, Dar Es Salaam </p>
+                        <p><i class="fa fa-phone-alt"></i>+255(0) 767 439217</p>
+                        <p><i class="fa fa-envelope"></i>empoweredforchangetx@gmail.com</p>
                         <div class="footer-social">
-                            <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-custom" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-custom" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-custom" href="https://x.com/E4Ctanzania?lang=en"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-custom" href="https://www.facebook.com/E4Ctanzania/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-custom" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-custom" href="https://www.instagram.com/E4Ctanzania/?hl=en"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-custom" href="https://www.linkedin.com/Empowered for Change /"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
