@@ -2,7 +2,6 @@
 include 'admin/connection/index.php'; // Adjust the path to your database connection file
 
 $message = '';
-echo 'jdnashcjask';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = $_POST['name'];
@@ -22,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
     $conn->close();
 } else {
+    echo $_SERVER["REQUEST_METHOD"];
     $message = "Failed to submit. Please try again later.";
     echo $message;
 }
