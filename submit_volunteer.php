@@ -20,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
     $connect->close();
 } else {
-    echo $_SERVER["REQUEST_METHOD"];
     $message = "Failed to submit. Please try again later.";
     echo $message;
 }
