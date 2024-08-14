@@ -17,13 +17,13 @@
           </a>
         </li>
         <li>
-          <a href="../sales/">
-            <i class="bi bi-circle"></i><span>Your sales</span>
+          <a href="../internship/">
+            <i class="bi bi-circle"></i><span>Your Internship Posts</span>
           </a>
         </li>
         <li>
-          <a href="../profile/">
-            <i class="bi bi-circle"></i><span>Business profile</span>
+          <a href="../jobs/">
+            <i class="bi bi-circle"></i><span>Your Jobs Adverts</span>
           </a>
         </li>
       </ul>
