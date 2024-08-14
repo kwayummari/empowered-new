@@ -3,7 +3,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="volunteer-form">
-                            <form>
+                            <form action="submit_volunteer.php" method="post">
                                 <div class="control-group">
                                     <input type="text" class="form-control" placeholder="Name" required="required" />
                                 </div>
