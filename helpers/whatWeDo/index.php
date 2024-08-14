@@ -14,16 +14,39 @@
                         mentorship to ensure that gained knowledge is sustained and
                         skills are put into practice and become part of day to day life of women and girls.
                     </p>
-                    
-                    <h4>Lorem ipsum dolor sit amet</h4>
+
                     <p>
-                        Praesent ultricies, mauris eget vestibulum viverra, neque lorem malesuada mauris, eget rhoncus lectus enim a lorem. Vivamus at vehicula risus, eget facilisis massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et posuere sapien. Fusce bibendum lorem sem, quis tincidunt felis mattis nec.
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Structured dialogues: </span>
+                        Our learning approaches are grounded on theories from
+                        various scholars that, learning cannot occur without
+                        dialogue and reflection. Reading and listening are not
+                        enough. Interaction is required. We believe that, the
+                        process of putting ideas into words is itself an important
+                        form of active engagement with the content, and a way of
+                        growing knowledge (even without feedback). If you have never
+                        expressed something in your own words, you do not know it
+                        fully. Dialogue is a great way for women and girls to reveal
+                        themselves in the words they use and the way those words are
+                        delivered. Dialogues spark existing conflicts which would
+                        otherwise remain obscured. The conflict can be external—character
+                        vs. character or character vs. environment—or the dialogue can reflect
+                        the viewpoint character’s internal struggle. We have used these
+                        theories to develop a dialogue guide which stimulate self-expression
+                        and interactions among peers. By fostering on-going dialogue
+                        and participation, women, girls or their influencers can cultivate
+                        a deeper understanding of local norms and beliefs, thus laying
+                        the groundwork for sustainable behavior change.
                     </p>
+
+                    <h2>Our Technical Approach</h2>
                     <p>
-                        Proin vel nulla purus. Nunc nec eros in nisi efficitur rutrum quis sed eros. Mauris felis dolor, rhoncus eget gravida vitae, pretium vel arcu. Cras blandit tellus eget tellus dictum venenatis. Sed ultricies bibendum dictum. Etiam facilisis erat id turpis tincidunt malesuada. Duis bibendum sapien eu condimentum sagittis. Proin nunc lorem, ullamcorper vel tortor sodales, imperdiet lacinia dui. Sed congue, felis id rhoncus varius, urna lacus imperdiet nunc, ut porttitor mauris mi quis mi. Integer rutrum est finibus metus eleifend scelerisque. Morbi auctor dignissim purus in interdum. Vestibulum eu dictum enim. Suspendisse et sem vitae velit feugiat facilisis.
-                    </p>
-                    <p>
-                        Nam sodales scelerisque nunc sed convallis. Vestibulum facilisis porta erat, sit amet pharetra tortor blandit id. Nunc velit tellus, consectetur sed convallis in, tincidunt finibus nulla. Integer vel ex in mauris tincidunt tincidunt nec sed elit. Etiam pretium lectus lectus, sed aliquet erat tristique euismod. Praesent faucibus nisl augue, ac tempus libero pellentesque malesuada. Vivamus iaculis imperdiet laoreet. Aliquam vel felis felis. Proin sed sapien erat. Etiam a quam et metus tempor rutrum. Curabitur in faucibus justo. Etiam imperdiet iaculis urna.
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Training and mentorship: </span>
+                        We have designed simplified training materials grounded
+                        on adult learning theories and we use age appropriate
+                        methodologies to make learning more joyful and enjoyable
+                        for young people. Our training packages incorporate on-going
+                        mentorship to ensure that gained knowledge is sustained and
+                        skills are put into practice and become part of day to day life of women and girls.
                     </p>
                 </div>
             </div>
