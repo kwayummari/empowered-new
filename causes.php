@@ -8,8 +8,6 @@
         <!-- Nav Bar Start -->
         <?php include 'helpers/navbar/causes.php' ?>
         <!-- Nav Bar End -->
-        
-        
         <!-- Page Header Start -->
         <div class="page-header">
             <div class="container">
@@ -51,11 +49,9 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/parallax/parallax.min.js"></script>
-        
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
-
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
