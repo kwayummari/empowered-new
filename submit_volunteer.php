@@ -3,12 +3,12 @@ include 'admin/connection/index.php';
 
 $message = '';
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $reason = $_POST['reason'];
+    $name = $_GET['name'];
+    $email = $_GET['email'];
+    $reason = $_GET['reason'];
 
     // Insert data into the database
-    $stmt = $conn->prepare("INSERT INTO volunteer (name, email, reason) VALUES (?, ?, ?)");
+    $stmt = $connect->prepare("INSERT INTO volunteer (name, email, reason) VALUES (?, ?, ?)");
     $stmt->bind_param("sss", $name, $email, $reason);
 
     if ($stmt->execute()) {
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     }
 
     $stmt->close();
-    $conn->close();
+    $connect->close();
 } else {
     echo $_SERVER["REQUEST_METHOD"];
     $message = "Failed to submit. Please try again later.";
