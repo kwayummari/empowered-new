@@ -37,23 +37,20 @@ $result = mysqli_query($connect, $query);
                 <h2>Latest news & articles directly from our blog</h2>
             </div>
             <div class="row">
-                <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
+                <?php while ($internship = mysqli_fetch_assoc($result)) { ?>
                     <div class="col-lg-4">
                         <div class="blog-item"
                             data-bs-toggle="modal" data-bs-target="#blogModal"
-                            data-title="<?php echo htmlspecialchars($blog['title']); ?>"
-                            data-caption="<?php echo htmlspecialchars($blog['caption']); ?>"
-                            data-description="<?php echo htmlspecialchars($blog['description']); ?>"
-                            data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>">
+                            data-title="<?php echo htmlspecialchars($internship['title']); ?>"
+                            data-caption="<?php echo htmlspecialchars($internship['caption']); ?>"
+                            data-description="<?php echo htmlspecialchars($internship['description']); ?>"
+                            data-image="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>">
                             <div class="blog-img">
-                                <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Image">
+                                <img src="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#"><?php echo htmlspecialchars($blog['title']); ?></a></h3>
-                                <p><?php echo htmlspecialchars($blog['caption']); ?></p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="#">EMPOWERED FOR CHANGE</a></p>
+                                <h3><a href="#"><?php echo htmlspecialchars($internship['title']); ?></a></h3>
+                                <p><?php echo htmlspecialchars($internship['caption']); ?></p>
                             </div>
                         </div>
                     </div>
