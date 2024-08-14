@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC";
+$query = "SELECT * FROM internship ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
 ?>
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ $result = mysqli_query($connect, $query);
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>From Blog</h2>
+                    <h2>From Internship</h2>
                 </div>
                 <div class="col-12">
                     <a href="">Home</a>
