@@ -9,7 +9,7 @@ $role = $_SESSION['role'];
 $username = $_SESSION['username'];
 $name = $_SESSION['name'];
 include '../connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC";
+$query = "SELECT * FROM internship ORDER BY id DESC";
 $stmt = $connect->prepare($query);
 $stmt->execute();
 $result4 = $stmt->get_result();
@@ -25,7 +25,7 @@ $result4 = $stmt->get_result();
     <div class="col-12">
       <div class="card recent-sales overflow-auto">
         <div class="card-body">
-          <h5 class="card-title">All Data <span>| Today</span> <a href="add.php"><span class="badge bg-success text-white">+ Add Blog</span></a></h5>
+          <h5 class="card-title">All Data <span>| Today</span> <a href="add.php"><span class="badge bg-success text-white">+ Add Internship</span></a></h5>
           <table class="table table-borderless datatable">
             <thead>
               <tr>
