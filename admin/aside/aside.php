@@ -26,6 +26,11 @@
             <i class="bi bi-circle"></i><span>Your Jobs Adverts</span>
           </a>
         </li>
+        <li>
+          <a href="volunteer/">
+            <i class="bi bi-circle"></i><span>Volunteers</span>
+          </a>
+        </li>
       </ul>
     </li>
   </ul>
