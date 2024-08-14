@@ -11,6 +11,7 @@
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="causes.php" class="nav-item nav-link active">Causes</a>
+                        <a href="blogs.php" class="nav-item nav-link">Blogs</a>
                         <a href="#" class="nav-item nav-link">Events</a>
                     </div>
                 </div>
