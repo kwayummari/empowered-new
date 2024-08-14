@@ -2,8 +2,8 @@
         <meta charset="utf-8">
         <title>EMPOWERED FOR CHANGE</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta content="EMPOWERED FOR CHANGE" name="keywords">
+        <meta content="EMPOWERED FOR CHANGE" name="description">
 
         <!-- Favicon -->
         <link href="img/logo/logo.png" rel="icon">

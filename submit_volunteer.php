@@ -2,7 +2,7 @@
 include 'admin/connection/index.php'; // Adjust the path to your database connection file
 
 $message = '';
-
+echo 'jdnashcjask';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = $_POST['name'];
