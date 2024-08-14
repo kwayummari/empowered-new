@@ -12,8 +12,8 @@
       </a>
       <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-          <a href="../products/">
-            <i class="bi bi-circle"></i><span>Your Products</span>
+          <a href="../blogs/">
+            <i class="bi bi-circle"></i><span>Your Blogs</span>
           </a>
         </li>
         <li>
