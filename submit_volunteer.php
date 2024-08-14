@@ -4,7 +4,6 @@ include 'admin/connection/index.php';
 $message = '';
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $name = $_GET['name'];
-    echo $name;
     $email = $_GET['email'];
     $reason = $_GET['reason'];
 
@@ -14,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
     if ($stmt->execute()) {
         $message = "Message sent successfully!";
+        header('Location: index.php');
     } else {
         $message = "Failed to submit. Please try again later.";
     }
