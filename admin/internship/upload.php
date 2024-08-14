@@ -1,5 +1,5 @@
 <?php
-$upload_dir = '../../img/blogs/';
+$upload_dir = '../../img/internship/';
 $imgset = array(
     'maxsize' => 3000,
     'maxwidth' => 3024,
@@ -40,7 +40,7 @@ if (isset($_FILES['upload']) && strlen($_FILES['upload']['name']) > 1) {
                 $uploadpath = $upload_dir . $f_name;
                 if (move_uploaded_file($_FILES['upload']['tmp_name'], $uploadpath)) {
                     $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
-                    $url = 'https://empoweredforchange.or.tz/img/blogs/' . $f_name;
+                    $url = 'https://empoweredforchange.or.tz/img/internship/' . $f_name;
                     $msg = F_NAME . '.' . $type .' successfully uploaded: \n- Size: '. number_format($_FILES['upload']['size'] / 1024, 2, '.', '') .' KB';
                     $re = "<script>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url', '$msg')</script>";
                 } else {
