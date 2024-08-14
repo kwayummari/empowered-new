@@ -8,13 +8,13 @@
                     <?php endif; ?>
                     <form id="contactForm" action="submit_volunteer.php" method="post" novalidate="novalidate">
                         <div class="control-group">
-                            <input type="text" class="form-control" placeholder="Name" required="required" />
+                            <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" placeholder="Email" required="required" />
+                            <input type="email" class="form-control" name="email" placeholder="Email" required="required" />
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                            <textarea class="form-control" name="reason" placeholder="Why you want to become a volunteer?" required="required"></textarea>
                         </div>
                         <div>
                             <button class="btn btn-custom" type="submit" id="sendMessageButton">Become a volunteer</button>

@@ -19,8 +19,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->close();
     $connect->close();
-} else {
-    $message = "Failed to submit. Please try again later.";
-    echo $message;
 }
 ?>
