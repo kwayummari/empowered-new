@@ -3,10 +3,10 @@ include 'admin/connection/index.php';
 
 $message = '';
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $name = $_POST['name'];
+    $name = $_GET['name'];
     echo $name;
-    $email = $_POST['email'];
-    $reason = $_POST['reason'];
+    $email = $_GET['email'];
+    $reason = $_GET['reason'];
 
     // Insert data into the database
     $stmt = $connect->prepare("INSERT INTO volunteer (name, email, reason) VALUES (?, ?, ?)");
