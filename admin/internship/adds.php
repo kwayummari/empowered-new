@@ -9,15 +9,15 @@ if (isset($_POST['submit'])) {
     $description = mysqli_real_escape_string($connect, trim($_POST['description']));
 
     if (isset($_FILES["cv"]) && $_FILES["cv"]["error"] == 0) {
-        $allowedTypes = ['image/jpg', 'image/png', 'image/gif', 'image/webp'];
+        $allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
         $fileType = mime_content_type($_FILES['cv']['tmp_name']);
         if (in_array($fileType, $allowedTypes)) {
             $file = $_FILES["cv"]["name"];
             $path = $_FILES['cv']['tmp_name'];
-            $folder = "../../img/blogs/";
+            $folder = "../../img/internship/";
             $final_name = str_replace(" ", "-", basename($file));
             $status = "0";
-            $query = $connect->prepare("INSERT INTO blogs (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
+            $query = $connect->prepare("INSERT INTO internship (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
             $query->bind_param("sssss", $title, $caption, $description, $status, $final_name);
 
             if ($query->execute()) {
@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
                     echo "Failed to upload image.";
                 }
             } else {
-                echo "Failed to add blog: " . $query->error;
+                echo "Failed to add internship: " . $query->error;
             }
             $query->close();
         } else {
