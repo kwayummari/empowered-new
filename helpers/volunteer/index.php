@@ -6,7 +6,7 @@
                     <?php if (!empty($message)): ?>
                         <div class="alert alert-success"><?php echo $message; ?></div>
                     <?php endif; ?>
-                    <form  action="submit_volunteer.php" method="post" novalidate="novalidate">
+                    <form  action="submit_volunteer.php" method="get" novalidate="novalidate">
                         <div class="control-group">
                             <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
                         </div>
