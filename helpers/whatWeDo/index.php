@@ -14,7 +14,6 @@
                         mentorship to ensure that gained knowledge is sustained and
                         skills are put into practice and become part of day to day life of women and girls.
                     </p>
-
                     <p>
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Structured dialogues: </span>
                         Our learning approaches are grounded on theories from
@@ -36,6 +35,19 @@
                         and participation, women, girls or their influencers can cultivate
                         a deeper understanding of local norms and beliefs, thus laying
                         the groundwork for sustainable behavior change.
+                    </p>
+
+                    <p>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Domestic resource mobilization to improve quality of SRH services: </span>
+                        Our organization strongly believe that domestic government
+                        spending on family planning should become the mainstay of
+                        a country’s family planning program, providing a budgeted
+                        flow of funds for services and staff. Our advocacy efforts
+                        have therefore focused on working with regional, districts
+                        and health facilities to increase allocations, disbursement
+                        and utilization of resources for family planning,
+                        adolescents’ friendly SRH services and SRH services
+                        for people with disabilities.
                     </p>
 
                     <h2>Our Technical Approach</h2>
