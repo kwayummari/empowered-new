@@ -17,7 +17,7 @@
                             <textarea class="form-control" name="reason" placeholder="Why you want to become a volunteer?" required="required"></textarea>
                         </div>
                         <div>
-                            <button class="btn btn-custom" type="submit" id="sendMessageButton">Become a volunteer</button>
+                            <button class="btn btn-custom" type="submit" >Become a volunteer</button>
                         </div>
                     </form>
                 </div>
