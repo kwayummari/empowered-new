@@ -9,7 +9,7 @@
             </div>
             <div class="contact-form">
                 <div id="success"></div>
-                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <form name="sentMessage" id="contactForm" action="send_email.php" method="post" novalidate="novalidate">
                     <div class="control-group">
                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                         <p class="help-block text-danger"></p>
