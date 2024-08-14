@@ -36,7 +36,6 @@
                         a deeper understanding of local norms and beliefs, thus laying
                         the groundwork for sustainable behavior change.
                     </p>
-
                     <p>
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Domestic resource mobilization to improve quality of SRH services: </span>
                         Our organization strongly believe that domestic government
@@ -49,10 +48,23 @@
                         adolescents’ friendly SRH services and SRH services
                         for people with disabilities.
                     </p>
-
-                    <h2>Our Technical Approach</h2>
                     <p>
-                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Training and mentorship: </span>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Strengthening movement of women and girls led CSOs:</span>
+                        Our organization believes that women and girls are experts
+                        of their own needs and therefore meaningful engagement and
+                        involvement of women in policy development, planning, budgeting
+                        and all SRH interventions is paramount. Our interventions are
+                        focused on building the capacity of women and girls led civil
+                        society organizations (CSOs) to lead and fully participate
+                        in SRH policy making and programming. We strengthen the ability
+                        of CSOs to advocate for quality and equitable SRH information
+                        and services and hold the government accountable on its SRH
+                        commitments.
+                    </p>
+
+                    <h2>Our core strength</h2>
+                    <p>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Innovative programming: </span>
                         We have designed simplified training materials grounded
                         on adult learning theories and we use age appropriate
                         methodologies to make learning more joyful and enjoyable
