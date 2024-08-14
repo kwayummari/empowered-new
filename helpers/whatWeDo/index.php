@@ -65,12 +65,48 @@
                     <h2>Our core strength</h2>
                     <p>
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Innovative programming: </span>
-                        We have designed simplified training materials grounded
-                        on adult learning theories and we use age appropriate
-                        methodologies to make learning more joyful and enjoyable
-                        for young people. Our training packages incorporate on-going
-                        mentorship to ensure that gained knowledge is sustained and
-                        skills are put into practice and become part of day to day life of women and girls.
+                        Our interventions always seek creation and implementation of new
+                        and creative methods and techniques which will enhance our efficiency
+                        and effectiveness in reaching more women and girls. We constantly
+                        seek feedback from our beneficiaries to learn what is working
+                        and what is not, and redesign our approaches to ensure that more
+                        women and girls are reached. We constantly explore new technology
+                        and take advantage of technological advancement to improve both reach
+                        and the impact of our interventions.
+                    </p>
+                    <p>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Focus on depth and not just scale: </span>
+                        In our organization, prioritizing depth over mere target achievement
+                        is paramount. Rather than focusing solely on hitting numerical goals,
+                        deliberate efforts are made in the design and implementation of the
+                        program towards fostering genuine understanding and empathy among women
+                        and girls. This entails tailoring interventions to address the multifaceted
+                        layers of social and gender norms, integrating culturally sensitive
+                        approaches that resonate with local contexts. Through this approach,
+                        the seeds of transformation can take root, paving the way for meaningful
+                        shifts in attitudes and behaviors among women, girls and their influencers.
+                    </p>
+                    <p>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Gender Equality and Social Inclusion mainstreaming: </span>
+                        Gender Equality and Social Inclusion (GESI) is a corner stone of our programming.
+                        Our programme activities are designed with both practical and strategic needs of
+                        women and girls, and other excluded groups in mind. The interventions,
+                        therefore aim at shifting social norms and power dynamics to ensure women
+                        and girls and other excluded groups can enjoy their rights, and have equal
+                        access to and control over assets, resources and services.
+                    </p>
+                    <p>
+                        <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Institutionalized intersectionality: </span>
+                        Our interventions always seek to understand the ways that multiple forms of
+                        inequality or disadvantage sometimes compound themselves and create
+                        obstacles that often are not understood among conventional ways of
+                        thinking. The design of our program strongly considers how groups' and
+                        individuals' social and political identities result in unique combinations
+                        of discrimination and privilege. Examples of these factors include gender,
+                        caste, sex, race, ethnicity, class, sexuality, religion, disability,
+                        height, age, weight and physical appearance. We therefore design programs
+                        which cut across multiple social and political entities of an individual
+                        and empower them to improve various aspects of their lives.
                     </p>
                 </div>
             </div>
