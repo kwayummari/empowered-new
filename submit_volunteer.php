@@ -2,10 +2,10 @@
 include 'admin/connection/index.php';
 
 $message = '';
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $name = $_GET['name'];
-    $email = $_GET['email'];
-    $reason = $_GET['reason'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $reason = $_POST['reason'];
 
     // Insert data into the database
     $stmt = $connect->prepare("INSERT INTO volunteer (name, email, reason) VALUES (?, ?, ?)");

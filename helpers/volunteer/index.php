@@ -6,7 +6,7 @@
                     <?php if (!empty($message)): ?>
                         <div class="alert alert-success"><?php echo $message; ?></div>
                     <?php endif; ?>
-                    <form action="submit_volunteer.php" method="post">
+                    <form id="contactForm" action="submit_volunteer.php" method="post" novalidate="novalidate">
                         <div class="control-group">
                             <input type="text" class="form-control" placeholder="Name" required="required" />
                         </div>
@@ -17,7 +17,7 @@
                             <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
                         </div>
                         <div>
-                            <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                            <button class="btn btn-custom" type="submit" id="sendMessageButton">Become a volunteer</button>
                         </div>
                     </form>
                 </div>
