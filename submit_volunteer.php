@@ -24,4 +24,4 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $message = "Failed to submit. Please try again later.";
     echo $message;
 }
-?>
+
