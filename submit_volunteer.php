@@ -1,9 +1,8 @@
 <?php
-include 'admin/connection/index.php'; // Adjust the path to your database connection file
+include 'admin/connection/index.php';
 
 $message = '';
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $reason = $_POST['reason'];
