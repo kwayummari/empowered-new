@@ -2,7 +2,7 @@
 include 'admin/connection/index.php';
 
 $message = '';
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $name = $_POST['name'];
     echo $name;
     $email = $_POST['email'];
