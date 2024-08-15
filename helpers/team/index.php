@@ -51,7 +51,7 @@ $teamMembers = [
     [
         "name" => "Mwiru Sima ",
         "role" => "Board Member",
-        "image" => "img/board/agusta.webp",
+        "image" => "img/board/mwiru.webp",
         "story" => "A dynamic and visionary development professional with over 20 years of experience in the sector, with a master's degree in public health specializing in Medical Sociology, my diverse background encompasses research, monitoring and evaluation (M&E), and program management across various sectors. I possess a proven track record of successful leadership, strategic partnerships, institutional funding, and effective stakeholder engagement. Committed to driving impactful change, I am well-equipped to lead and shape the organization's mission, while fostering a culture of inclusivity, collaboration, and operational excellence.",
         "socialLinks" => [
             "twitter" => "#",
