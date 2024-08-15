@@ -21,9 +21,9 @@
                             <img src="img/slider/women2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Community Health for Non Communicable Diseases</h1>
+                            <h1>Women's Health and Rights</h1>
                             <p>
-                            Empowering communities for better health, bridging the gender divide, and creating a nation where wellness knows no boundaries.
+                            Empowering women through access to healthcare, education, and equal opportunities, promoting rights and wellness across all sectors.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="">Donate Now</a>
@@ -36,9 +36,9 @@
                             <img src="img/slider/women1.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Youth Opportunities, Jobs Creation and Entrepreneurship Skills</h1>
+                            <h1>Advancing Women's Opportunities and Entrepreneurship</h1>
                             <p>
-                                GHF aims at embedding an entrepreneurial spirit amongst youth, transforming job seekers into job creators who are able to increase employment 
+                            Promoting women's participation in entrepreneurship and job creation, fostering an environment where women can thrive as leaders and innovators.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="">Donate Now</a>
