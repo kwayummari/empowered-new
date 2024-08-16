@@ -358,11 +358,12 @@ a:focus {
 /********** Hero CSS ***********/
 /*******************************/
 .carousel {
-    position: absolute;
+    position: relative;
     width: 100%;
     min-height: 300px;
     background: #ffffff;
     margin-bottom: 45px;
+    margin-top: 50px;
 }
 
 .carousel .container-fluid {
