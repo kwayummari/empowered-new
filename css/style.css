@@ -206,6 +206,12 @@ a:focus {
     font-size: 0;
     justify-content: flex-end;
 }
+.top-bar .social1 {
+    display: flex;
+    height: 45px;
+    font-size: 0;
+    justify-content: flex-end;
+}
 
 .top-bar .social a {
     display: flex;
@@ -217,14 +223,31 @@ a:focus {
     color: #f27d2d;
     border-right: 1px solid rgba(255, 255, 255, .3);
 }
+.top-bar .social1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
 
 .top-bar .social a:first-child {
+    border-left: 1px solid rgba(255, 255, 255, .3);
+}
+.top-bar .social1 a:first-child {
     border-left: 1px solid rgba(255, 255, 255, .3);
 }
 
 .top-bar .social a:hover {
     color: #ffffff;
     background: #f27d2d;
+}
+.top-bar .social1 a:hover {
+    color: #f27d2d;
+    background: #ffffff;
 }
 
 @media (min-width: 992px) {

@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="top-bar-right">
-                            <div class="social">
+                            <div class="social1">
                                 <a href="https://x.com/E4Ctanzania?lang=en"><i class="fab fa-twitter"></i></a>
                                 <a href="https://www.facebook.com/E4Ctanzania/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.linkedin.com/Empowered for Change /"><i class="fab fa-linkedin-in"></i></a>
