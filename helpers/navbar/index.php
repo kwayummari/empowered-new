@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg bg-white navbar-white">
+<div class="navbar navbar-expand-lg bg-dark navbar-dark" style="color: white;">
     <div class="container-fluid">
         <a href="index.php" class="navbar-brand"><img src="img/logo/logo.png" alt=""></a>
         <h4 style="color: #F27D2D;">EMPOWERED FOR CHANGE</h4>
