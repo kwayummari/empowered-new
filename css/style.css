@@ -264,7 +264,6 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    background-color: white;
 }
 
 .navbar.nav-sticky {
@@ -272,7 +271,6 @@ a:focus {
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-    background-color: white;
     transition: .5s;
 }
 
