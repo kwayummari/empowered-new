@@ -9,9 +9,9 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <a href="index.php" class="nav-item nav-link active">Home</a>
-                <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="causes.php" class="nav-item nav-link">Causes</a>
-                <a href="blogs.php" class="nav-item nav-link">Blogs</a>
+                <a href="about.php" class="nav-item nav-link">Who we are</a>
+                <a href="causes.php" class="nav-item nav-link">What we do</a>
+                <a href="blogs.php" class="nav-item nav-link">New and Insights</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Work with us</a>
                     <div class="dropdown-menu">
