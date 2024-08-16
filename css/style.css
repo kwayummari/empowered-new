@@ -151,6 +151,7 @@ a:focus {
 /********** Top Bar CSS ***********/
 /**********************************/
 .top-bar {
+    background-color: white;
     position: absolute;
     height: 45px;
     width: 100%;
