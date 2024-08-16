@@ -276,7 +276,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #000000;
+    color: #ffffff;
     font-size: 45px;
     line-height: 0px;
     font-weight: 700;
@@ -294,7 +294,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 15px 8px 15px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
