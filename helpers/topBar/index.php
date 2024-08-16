@@ -1,4 +1,4 @@
-<div class="top-bar d-none d-md-block" style="background-color: white;">
+<div class="top-bar d-none d-md-block" style="background-color: #F27D2D;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
