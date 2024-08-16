@@ -294,7 +294,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 15px 8px 15px;
-    color: #f27d2d;
+    color: grey;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
