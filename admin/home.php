@@ -9,8 +9,26 @@ $query = "SELECT * FROM blogs";
 $result = mysqli_query($connect, $query);
 $count = mysqli_fetch_assoc($result);
 $total_blogs = mysqli_num_rows($result);
-$query = "select * from user";
-$result4 = mysqli_query($connect, $query);
+
+$query1 = "SELECT * FROM projects";
+$result1 = mysqli_query($connect, $query1);
+$count1 = mysqli_fetch_assoc($result1);
+$total_projects = mysqli_num_rows($result1);
+
+$query2 = "SELECT * FROM internship";
+$result2 = mysqli_query($connect, $query2);
+$count2 = mysqli_fetch_assoc($result2);
+$total_internship = mysqli_num_rows($result2);
+
+$query3 = "SELECT * FROM jobs";
+$result3 = mysqli_query($connect, $query3);
+$count3 = mysqli_fetch_assoc($result3);
+$total_jobs = mysqli_num_rows($result3);
+
+$query4 = "SELECT * FROM user";
+$result4 = mysqli_query($connect, $query4);
+$count4 = mysqli_fetch_assoc($result4);
+$total_users = mysqli_num_rows($result4);
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +59,7 @@ $result4 = mysqli_query($connect, $query);
             <div class="card info-card sales-card">
 
               <div class="card-body">
-                <h5 class="card-title">Total <span>|Registered Products</span></h5>
+                <h5 class="card-title">Total <span>|Registered Blogs</span></h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -62,14 +80,14 @@ $result4 = mysqli_query($connect, $query);
             <div class="card info-card revenue-card">
 
               <div class="card-body">
-                <h5 class="card-title">Total <span>| Carousel</span></h5>
+                <h5 class="card-title">Total <span>| Internship</span></h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-list"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_blogs ?></h6>
+                    <h6><?php echo $total_internship ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>
@@ -84,14 +102,14 @@ $result4 = mysqli_query($connect, $query);
             <div class="card info-card sales-card">
 
               <div class="card-body">
-                <h5 class="card-title">Previous <span>|Matches</span></h5>
+                <h5 class="card-title">Total <span>|Jobs Requests</span></h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-arrow-return-left"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_blogs ?></h6>
+                    <h6><?php echo $total_jobs ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>
@@ -106,14 +124,14 @@ $result4 = mysqli_query($connect, $query);
             <div class="card info-card revenue-card">
 
               <div class="card-body">
-                <h5 class="card-title">Next <span>| Matches</span></h5>
+                <h5 class="card-title">Total <span>| Users</span></h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                     <i class="bi bi-arrow-return-right"></i>
                   </div>
                   <div class="ps-3">
-                    <h6><?php echo $total_blogs ?></h6>
+                    <h6><?php echo $total_users ?></h6>
                     <!-- <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                   </div>
