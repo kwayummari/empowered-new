@@ -26,9 +26,12 @@
         <!-- Service Start -->
         <?php include 'helpers/coreValues/index.php' ?>
         <!-- Service End -->
-        <!-- Causes Start -->
+         <!-- Causes Start -->
         <?php include 'helpers/volunteer/index.php' ?>
         <!-- Causes End -->
+        <!-- Projects Start -->
+        <?php include 'helpers/projects/index.php' ?>
+        <!-- Projects End -->
          <!-- What we do Start -->
         <?php include 'helpers/whatWeDo/index.php' ?>
         <!-- What we do End -->
