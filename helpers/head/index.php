@@ -6,7 +6,9 @@
         <meta content="EMPOWERED FOR CHANGE" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo/logo.png" rel="icon">
+        <!-- EFC LOGO-05 -->
+        <!-- <link href="img/logo/logo.png" rel="icon"> -->
+        <link href="img/logo/EFC LOGO-05.jpg" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
