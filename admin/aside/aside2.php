@@ -17,6 +17,11 @@
           </a>
         </li>
         <li>
+          <a href="../projects/">
+            <i class="bi bi-circle"></i><span>Your Projects</span>
+          </a>
+        </li>
+        <li>
           <a href="../internship/">
             <i class="bi bi-circle"></i><span>Your Internship Posts</span>
           </a>
