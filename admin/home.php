@@ -63,7 +63,7 @@ $total_users = mysqli_num_rows($result4);
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-people"></i>
+                    <i class="bi bi-book"></i>
                   </div>
                   <div class="ps-3">
                     <h6><?php echo $total_blogs ?></h6>
@@ -106,7 +106,7 @@ $total_users = mysqli_num_rows($result4);
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-arrow-return-left"></i>
+                    <i class="bi bi-list"></i>
                   </div>
                   <div class="ps-3">
                     <h6><?php echo $total_jobs ?></h6>
@@ -128,7 +128,7 @@ $total_users = mysqli_num_rows($result4);
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-arrow-return-right"></i>
+                    <i class="bi bi-people"></i>
                   </div>
                   <div class="ps-3">
                     <h6><?php echo $total_users ?></h6>
