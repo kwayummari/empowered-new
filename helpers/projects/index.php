@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM projects ORDER BY id DESC LIMIT 3 WHERE status = 1";
+$query = "SELECT * FROM projects ORDER BY id DESC WHERE status = 1";
 $result = mysqli_query($connect, $query);
 ?>
 
