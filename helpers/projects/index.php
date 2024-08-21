@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC LIMIT 3 WHERE status = '1'";
+$query = "SELECT * FROM projects ORDER BY id DESC LIMIT 3 WHERE status = '1'";
 $result = mysqli_query($connect, $query);
 ?>
 
@@ -8,8 +8,8 @@ $result = mysqli_query($connect, $query);
 <div class="blog">
     <div class="container">
         <div class="section-header text-center">
-            <p>Our Blog</p>
-            <h2>Latest news & articles directly from our blog</h2>
+            <p>Our Projects</p>
+            <h2>Latest Projects</h2>
         </div>
         <div class="row">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
