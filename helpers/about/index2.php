@@ -12,17 +12,6 @@
                 <div class="about-tab">
                     <ul class="nav nav-pills nav-justified">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
-                            <p>We are a women rights organization that seeks to empower
-                            women and girls of all abilities to realize their reproductive
-                            health goals by providing them with tools to make informed
-                            decisions and creating enabling environment for them to
-                            fulfill their potentials. The organization is registered
-                            under the non-governmental organizations ACT, 2002 on 25th
-                            February 2022 with a registration number ooNGO/R/2844 to
-                            operate in Tanzania mainland.</p>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
                             <p>To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
