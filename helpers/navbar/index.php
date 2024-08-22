@@ -19,6 +19,9 @@
                         <a href="jobs.php" class="dropdown-item">Job Adverts</a>
                     </div>
                 </div>
+                <div class="carousel-btn">
+                    <a class="btn btn-custom" href="">Donate Now</a>
+                </div>
             </div>
         </div>
     </div>
