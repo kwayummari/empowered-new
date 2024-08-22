@@ -10,7 +10,7 @@
                     <h2>EMPOWERED FOR CHANGE</h2>
                 </div>
                 <div>
-                    <ul class="nav nav-pills nav-justified">
+                    <ul >
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
                             <p>To empower women, girls and marginalized groups with correct
