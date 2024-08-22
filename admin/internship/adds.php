@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
             $path = $_FILES['cv']['tmp_name'];
             $folder = "../../img/internship/";
             $final_name = str_replace(" ", "-", basename($file));
-            $status = "0";
+            $status = "1";
             $query = $connect->prepare("INSERT INTO internship (title, caption, description, status, image) VALUES (?, ?, ?, ?, ?)");
             $query->bind_param("sssss", $title, $caption, $description, $status, $final_name);
 
