@@ -9,7 +9,7 @@
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>empoweredforchangetx@gmail.com</p>
+                                <p>empoweredforchangetz@gmail.com</p>
                             </div>
                         </div>
                     </div>
