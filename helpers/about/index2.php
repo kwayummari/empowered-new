@@ -13,7 +13,7 @@
                     <ul>
                     <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
-                                <i class="fas fa-bullseye" style="font-size: 40px;"></i> About
+                                <i class="fas fa-book" style="font-size: 40px;"></i> About
                             </a>
                             <p>We are a women rights organization that seeks to empower
                             women and girls of all abilities to realize their reproductive
