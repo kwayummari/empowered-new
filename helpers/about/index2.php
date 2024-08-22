@@ -9,7 +9,7 @@
                     <p>Learn About Us</p>
                     <h2>EMPOWERED FOR CHANGE</h2>
                 </div>
-                <div class="about-tab">
+                <div>
                     <ul class="nav nav-pills nav-justified">
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
