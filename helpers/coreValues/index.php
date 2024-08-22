@@ -11,8 +11,8 @@
                         <i class="fas fa-balance-scale"></i> <!-- Equality icon -->
                     </div>
                     <div class="service-text">
-                        <h3><a href="#" data-toggle="modal" data-target="#equalityModal">Equality</a></h3>
-                        <p>Our beneficiary-centered approach meets the needs of women and girls.</p>
+                        <h3><a href="#" data-toggle="modal" data-target="#equalityModal">Our beneficiary-centered approach meets the needs of women and girls.</a></h3>
+                        <p>Our beneficiary-centered approach places women and girls at the heart of our efforts, ensuring that their specific needs and aspirations drive our programs and services. By actively listening to and engaging with them, we tailor our support to address their unique challenges and goals. This commitment fosters empowerment and ensures that our initiatives are both relevant and impactful.</p>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                         <i class="fas fa-hand-holding-heart"></i> <!-- Empowerment icon -->
                     </div>
                     <div class="service-text">
-                        <h3><a href="#" data-toggle="modal" data-target="#empowermentModal">Empowerment</a></h3>
-                        <p>Our innovative approaches deliver sustainable impact.</p>
+                        <h3><a href="#" data-toggle="modal" data-target="#empowermentModal">Our innovative approaches deliver sustainable impact </a></h3>
+                        <p>Our innovative approaches are designed to create lasting and meaningful change. By leveraging new ideas and cutting-edge solutions, we address challenges in unique and effective ways. This commitment to innovation ensures that our efforts have a sustainable and profound impact on the communities we serve.</p>
                     </div>
                 </div>
             </div>
@@ -33,8 +33,8 @@
                         <i class="fas fa-users"></i> <!-- Inclusivity icon -->
                     </div>
                     <div class="service-text">
-                        <h3><a href="#" data-toggle="modal" data-target="#inclusivityModal">Inclusivity</a></h3>
-                        <p>Through learning, we deliver quality programs and services.</p>
+                        <h3><a href="#" data-toggle="modal" data-target="#inclusivityModal">Through learning we deliver quality programs and services</a></h3>
+                        <p>Through continuous learning, we refine and enhance our programs and services to ensure they meet the highest standards of quality. By staying informed about the latest research and best practices, we adapt our approaches to effectively address the needs of those we serve. This commitment to learning drives our dedication to delivering impactful and exceptional services.</p>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@
                         <i class="fas fa-handshake"></i> <!-- Respect icon -->
                     </div>
                     <div class="service-text">
-                        <h3><a href="#" data-toggle="modal" data-target="#respectModal">Respect</a></h3>
-                        <p>We achieve results with integrity.</p>
+                        <h3><a href="#" data-toggle="modal" data-target="#respectModal">We achieve results with integrity</a></h3>
+                        <p>We achieve results with integrity by adhering to the highest ethical standards in all our actions. Our commitment to transparency and honesty ensures that our outcomes are both credible and trustworthy. By consistently aligning our practices with our values, we build lasting trust and credibility with those we serve.</p>
                     </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@
                         <i class="fas fa-check-circle"></i> <!-- Accountability icon -->
                     </div>
                     <div class="service-text">
-                        <h3><a href="#" data-toggle="modal" data-target="#accountabilityModal">Accountability</a></h3>
-                        <p>We build highly motivated teams to deliver excellence.</p>
+                        <h3><a href="#" data-toggle="modal" data-target="#accountabilityModal">We build highly motivated teams to deliver excellence </a></h3>
+                        <p>We build highly motivated teams by fostering a supportive and empowering work environment. Through clear communication, professional development, and recognition of achievements, we inspire our team members to strive for excellence. This dedication to team motivation drives our collective success and ensures the highest quality in everything we deliver.</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="equalityModalLabel">Equality</h5>
+                <h5 class="modal-title" id="equalityModalLabel">Our beneficiary centered approach meets the needs of women and girls</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -86,7 +86,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="empowermentModalLabel">Empowerment</h5>
+                <h5 class="modal-title" id="empowermentModalLabel">Our innovative approaches deliver sustainable impact </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -103,7 +103,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="inclusivityModalLabel">Inclusivity</h5>
+                <h5 class="modal-title" id="inclusivityModalLabel">Through learning we deliver quality programs and services</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -120,7 +120,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="respectModalLabel">Respect</h5>
+                <h5 class="modal-title" id="respectModalLabel">We achieve results with integrity</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -137,7 +137,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="accountabilityModalLabel">Accountability</h5>
+                <h5 class="modal-title" id="accountabilityModalLabel">We build highly motivated teams to deliver excellence </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
