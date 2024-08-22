@@ -7,7 +7,7 @@
     <?php include 'helpers/topBar/index.php' ?>
     <!-- Top Bar End -->
     <!-- Nav Bar Start -->
-    <?php include 'helpers/navbar/about.php' ?>
+    <?php include 'helpers/navbar/index.php' ?>
     <!-- Nav Bar End -->
     <!-- Page Header Start -->
     <div class="page-header">
