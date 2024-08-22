@@ -18,7 +18,7 @@ $result = mysqli_query($connect, $query);
                          data-bs-toggle="modal" data-bs-target="#blogModal"
                          data-title="<?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?>"
                          data-caption="<?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?>"
-                         data-description="<?php echo htmlspecialchars($blog['description'], ENT_QUOTES, 'UTF-8'); ?>"
+                         data-description="<?php echo htmlspecialchars(nl2br($blog['description']), ENT_QUOTES, 'UTF-8'); ?>"
                          data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <div class="blog-img">
                             <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="Image">
