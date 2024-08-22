@@ -10,15 +10,19 @@
                     <h2>EMPOWERED FOR CHANGE</h2>
                 </div>
                 <div>
-                    <ul >
+                    <ul>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-2">
+                                <i class="fas fa-bullseye"></i> Mission
+                            </a>
                             <p>To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
                             for them to exercise their rights and fulfill their potentials.</p>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-3">
+                                <i class="fas fa-eye"></i> Vision
+                            </a>
                             <p>Empowered women and girls enjoy their rights and fulfill their potentials.</p>
                         </li>
                     </ul>
