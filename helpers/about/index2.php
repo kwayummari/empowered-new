@@ -13,7 +13,7 @@
                     <ul>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2">
-                                <i class="fas fa-bullseye" style="font-size: 20px;"></i> Mission
+                                <i class="fas fa-bullseye" style="font-size: 50px;"></i> Mission
                             </a>
                             <p>To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
@@ -21,7 +21,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-3">
-                                <i class="fas fa-eye"></i> Vision
+                                <i class="fas fa-eye" style="font-size: 50px;"></i> Vision
                             </a>
                             <p>Empowered women and girls enjoy their rights and fulfill their potentials.</p>
                         </li>
