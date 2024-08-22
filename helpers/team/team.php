@@ -45,7 +45,8 @@ if (isset($_GET['member'])) {
                         <div class="team-img">
                             <img src="<?= $member['image'] ?>" alt="Team Image">
                         </div>
-                        <div class="team-text">
+                    </a>
+                    <div class="team-text">
                             <h2><?= $member['name'] ?></h2>
                             <p><?= $member['role'] ?></p>
                             <div class="team-social">
@@ -54,7 +55,6 @@ if (isset($_GET['member'])) {
                                 <?php endforeach; ?>
                             </div>
                         </div>
-                    </a>
                 </div>
             </div>
             <?php endforeach; ?>
