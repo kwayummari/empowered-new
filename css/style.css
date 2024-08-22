@@ -1462,10 +1462,12 @@ a:focus {
 
 .blog .blog-img {
     width: 100%;
+    max-height: 100px;
 }
 
 .blog .blog-img img {
     width: 100%;
+    max-height: 100px;
 }
 
 .blog .blog-text {
