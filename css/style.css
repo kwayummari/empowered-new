@@ -411,11 +411,12 @@ a:focus {
     position: absolute;
     max-width: 700px;
     display: flex;
-    align-items: right;
-    justify-content: right;
     flex-direction: column;
+    justify-content: center; /* Align content vertically */
+    align-items: flex-end; /* Align content to the right */
+    right: 0; /* Position the element at the right edge of its parent */
     z-index: 2;
-}
+  }
 
 .carousel .carousel-text h1 {
     text-align: right;
