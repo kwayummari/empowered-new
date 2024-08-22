@@ -431,6 +431,7 @@ a:focus {
     color: #ffffff;
     text-align: left;
     font-size: 20px;
+    font-weight: bolder;
     margin-bottom: 25px;
 }
 
