@@ -1,7 +1,6 @@
 <div class="navbar navbar-expand-lg bg-white navbar-dark" style="background-color: white;">
     <div class="container-fluid">
         <a href="index.php" class="navbar-brand"><img src="img/logo/logo.png" alt=""></a>
-        <!-- <h4 style="color: #F27D2D;">EMPOWERED FOR CHANGE</h4> -->
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,9 +19,16 @@
                     </div>
                 </div>
                 <div class="carousel-btn">
-                    <a class="btn btn-custom" href="">Donate Now</a>
+                    <a class="btn btn-custom" href="#" id="donateBtn">Donate Now</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById("donateBtn").addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("Thank you for your generosity! Please contact us via email at info@empoweredforchange.or.tz to get more details on how you can contribute to our cause.");
+    });
+</script>
