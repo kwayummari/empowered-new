@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-lg bg-white navbar-dark" style="background-color: white;">
     <div class="container-fluid">
-        <a href="index.php" class="navbar-brand"><img src="img/logo/EFC LOGO-05.jpg" height="70px" alt=""></a>
+        <a href="index.php" class="navbar-brand"><img src="img/logo/EFC LOGO-05.jpg" alt=""></a>
         <!-- <h4 style="color: #F27D2D;">EMPOWERED FOR CHANGE</h4> -->
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
