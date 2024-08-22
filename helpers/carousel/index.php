@@ -6,7 +6,6 @@
                             <img src="img/slider/women.webp" alt="Image" />
                         </div>
                         <div class="carousel-text">
-                            <h1>Empowered women make informed decisions</h1>
                             <p>
                                 Empowered women make informed decisions about their bodies and health leading to healthier pregnancies and better reproductive health outcomes.
                             </p>
@@ -21,7 +20,6 @@
                             <img src="img/slider/women2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Empowered women have full control over their reproductive choices</h1>
                             <p>
                             Empowered women have full control over their reproductive choices, they can plan their careers and families better, which positively impacts their ability to contribute to and benefit from economic growth.
                             </p>
@@ -36,7 +34,6 @@
                             <img src="img/slider/women1.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Empowered women advocate for their rights and challenge discriminatory policies and practices.</h1>
                             <p>
                             Empowered women advocate for their rights and challenge discriminatory policies and practices.
                             </p>
