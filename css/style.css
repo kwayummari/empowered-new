@@ -411,8 +411,8 @@ a:focus {
     position: absolute;
     max-width: 700px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     flex-direction: column;
     z-index: 2;
 }
