@@ -63,7 +63,7 @@ $boardMembers = [
 ];
 
 if (isset($_GET['member'])) {
-    $selectedMember = $boardMembers[$_GET['member']];
+    $selectedBoardMember = $boardMembers[$_GET['member']];
 }
 ?>
 
@@ -98,14 +98,14 @@ if (isset($_GET['member'])) {
     </div>
 </div>
 
-<?php if (isset($selectedMember)) : ?>
+<?php if (isset($selectedBoardMember)) : ?>
     <!-- Popup Modal -->
     <div class="popup-modal">
         <div class="popup-content">
             <span class="close" onclick="window.location.href='?';">&times;</span>
-            <h2><?= $selectedMember['name'] ?></h2>
-            <p><strong><?= $selectedMember['role'] ?></strong></p>
-            <p><?= $selectedMember['story'] ?></p>
+            <h2><?= $selectedBoardMember['name'] ?></h2>
+            <p><strong><?= $selectedBoardMember['role'] ?></strong></p>
+            <p><?= $selectedBoardMember['story'] ?></p>
         </div>
     </div>
 <?php endif; ?>
