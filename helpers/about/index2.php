@@ -6,11 +6,24 @@
             </div>
             <div class="col-lg-6">
                 <div class="section-header">
-                    <p>Learn About Us</p>
-                    <h2>EMPOWERED FOR CHANGE</h2>
+                    <!-- <p>Learn About Us</p>
+                    <h2>EMPOWERED FOR CHANGE</h2> -->
                 </div>
                 <div>
                     <ul>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
+                                <i class="fas fa-bullseye" style="font-size: 40px;"></i> About
+                            </a>
+                            <p>We are a women rights organization that seeks to empower
+                            women and girls of all abilities to realize their reproductive
+                            health goals by providing them with tools to make informed
+                            decisions and creating enabling environment for them to
+                            fulfill their potentials. The organization is registered
+                            under the non-governmental organizations ACT, 2002 on 25th
+                            February 2022 with a registration number ooNGO/R/2844 to
+                            operate in Tanzania mainland.</p>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-bullseye" style="font-size: 40px;"></i> Mission
