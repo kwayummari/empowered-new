@@ -62,8 +62,8 @@ $boardMembers = [
     ],
 ];
 
-if (isset($_GET['member'])) {
-    $selectedBoardMember = $boardMembers[$_GET['member']];
+if (isset($_GET['bMember'])) {
+    $selectedBoardMember = $boardMembers[$_GET['bMember']];
 }
 ?>
 
