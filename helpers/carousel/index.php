@@ -8,7 +8,7 @@
                         <div class="carousel-text">
                             <h1>Gender and Girls Empowerment SDG</h1>
                             <p>
-                                Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.
+                                Empowered women make informed decisions about their bodies and health leading to healthier pregnancies and better reproductive health outcomes.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="">Donate Now</a>
