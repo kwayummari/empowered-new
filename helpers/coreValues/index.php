@@ -1,7 +1,7 @@
 <div class="service">
     <div class="container">
         <div class="section-header text-center">
-            <p>An idea built the wall of separation between the sexes, and an idea will crumble it to dust</p>
+            <!-- <p>An idea built the wall of separation between the sexes, and an idea will crumble it to dust</p> -->
             <h2>OUR CORE VALUES</h2>
         </div>
         <div class="row">
