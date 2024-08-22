@@ -414,7 +414,8 @@ a:focus {
     flex-direction: column;
     justify-content: center; /* Align content vertically */
     align-items: flex-end; /* Align content to the right */
-    right: 20; /* Position the element at the right edge of its parent */
+    right: 0; /* Position the element at the right edge of its parent */
+    margin-right: 50px;
     z-index: 2;
   }
 
