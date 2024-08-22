@@ -420,7 +420,7 @@ a:focus {
   }
 
 .carousel .carousel-text h1 {
-    text-align: right;
+    text-align: left;
     color: #ffffff;
     font-size: 60px;
     font-weight: 700;
@@ -429,7 +429,7 @@ a:focus {
 
 .carousel .carousel-text p {
     color: #ffffff;
-    text-align: right;
+    text-align: left;
     font-size: 20px;
     margin-bottom: 25px;
 }
