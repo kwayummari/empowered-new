@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="single-content">
-                    <h2>Our Technical Approach</h2>
+                    <center><h2>Our Technical Approach</h2></center>
 
                     <!-- Paragraph 1 with Read More -->
                     <p>
@@ -46,7 +46,7 @@
                         <a onclick="toggleReadMore('4')" id="readMoreBtn4" style="color: #F27D2D; cursor: pointer;">Read More</a>
                     </p>
 
-                    <h2>Our Core Strength</h2>
+                    <center><h2>Our Core Strength</h2></center>
 
                     <!-- Paragraph 5 with Read More -->
                     <p>
