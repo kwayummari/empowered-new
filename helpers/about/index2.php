@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="about-img" data-parallax="scroll" data-image-src="img/about/about2.png"></div>
+                <div class="about-img" data-parallax="scroll" data-image-src="img/about/about.webp"></div>
             </div>
             <div class="col-lg-6">
                 <div class="section-header">
