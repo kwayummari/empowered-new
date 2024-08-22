@@ -21,9 +21,9 @@
                             <img src="img/slider/women2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Women's Health and Rights</h1>
+                            <h1>Empowered women have full control over their reproductive choices</h1>
                             <p>
-                            Empowering women through access to healthcare, education, and equal opportunities, promoting rights and wellness across all sectors.
+                            Empowered women have full control over their reproductive choices, they can plan their careers and families better, which positively impacts their ability to contribute to and benefit from economic growth.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="">Donate Now</a>
@@ -36,9 +36,9 @@
                             <img src="img/slider/women1.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Advancing Women's Opportunities and Entrepreneurship</h1>
+                            <h1>Empowered women advocate for their rights and challenge discriminatory policies and practices.</h1>
                             <p>
-                            Promoting women's participation in entrepreneurship and job creation, fostering an environment where women can thrive as leaders and innovators.
+                            Empowered women advocate for their rights and challenge discriminatory policies and practices.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="">Donate Now</a>
