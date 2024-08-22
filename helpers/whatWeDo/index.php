@@ -7,7 +7,7 @@
                     <center><h2>Our Technical Approach</h2></center>
 
                     <!-- Paragraph 1 with Read More -->
-                    <p style="margin-bottom: 100px; font-size: 40px;">
+                    <p style="margin-bottom: 100px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Training and mentorship: </span>
                         We have designed simplified training materials grounded on adult learning theories and we use age-appropriate methodologies to make learning more joyful and enjoyable for young people. 
                         <span id="dots1">...</span><span id="more1" style="display:none;">
