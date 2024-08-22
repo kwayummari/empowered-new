@@ -12,9 +12,9 @@
                 <div>
                     <ul>
                     <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px; align-items: center;">
+                            <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-book" style="font-size: 40px;"></i> About
-                            </a>
+                            </a></center>
                             <p>We are a women rights organization that seeks to empower
                             women and girls of all abilities to realize their reproductive
                             health goals by providing them with tools to make informed
