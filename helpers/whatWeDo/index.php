@@ -48,9 +48,9 @@
                         <a onclick="toggleReadMore('4')" id="readMoreBtn4" style="color: #F27D2D; cursor: pointer;">Read More</a>
                     </p>
 
-                    <center>
+                    <div class="section-header text-center">
                         <h2>Our Core Strength</h2>
-                    </center>
+                    </div>
 
                     <!-- Paragraph 5 with Read More -->
                     <p style="margin-bottom: 60px; font-size: 20px;">
