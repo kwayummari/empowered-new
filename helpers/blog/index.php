@@ -16,16 +16,16 @@ $result = mysqli_query($connect, $query);
                 <div class="col-lg-4">
                     <div class="blog-item" 
                          data-bs-toggle="modal" data-bs-target="#blogModal"
-                         data-title="<?php echo htmlspecialchars($blog['title']); ?>"
-                         data-caption="<?php echo htmlspecialchars($blog['caption']); ?>"
-                         data-description="<?php echo htmlspecialchars($blog['description']); ?>"
-                         data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>">
+                         data-title="<?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?>"
+                         data-caption="<?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?>"
+                         data-description="<?php echo htmlspecialchars($blog['description'], ENT_QUOTES, 'UTF-8'); ?>"
+                         data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <div class="blog-img">
-                            <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Image">
+                            <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="Image">
                         </div>
                         <div class="blog-text">
-                            <h3><a href="#"><?php echo htmlspecialchars($blog['title']); ?></a></h3>
-                            <p><?php echo htmlspecialchars($blog['caption']); ?></p>
+                            <h3><a href="#"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
+                            <p><?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?></p>
                         </div>
                         <div class="blog-meta">
                             <p><i class="fa fa-user"></i><a href="#">EMPOWERED FOR CHANGE</a></p>
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         modalTitle.textContent = title;
         modalCaption.textContent = caption;
-        modalDescription.innerHTML = description;
+        modalDescription.innerHTML = description; // Directly set innerHTML
         modalImage.src = image;
     });
 });
