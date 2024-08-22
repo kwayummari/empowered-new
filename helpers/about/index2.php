@@ -13,7 +13,7 @@
                     <ul>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#tab-content-2">
-                                <i class="bi bi-bullseye"></i> Mission
+                                <i class="bi bi-bullseye"></i> Missio
                             </a>
                             <p>To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
