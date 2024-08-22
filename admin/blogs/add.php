@@ -24,7 +24,7 @@ session_start();
       <div class="row">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Product Input<span style="color: green; margin-left: 6cm;"><b><?php include('adds.php'); ?></b></span> </h5>
+            <h5 class="card-title">Blog Input<span style="color: green; margin-left: 6cm;"><b><?php include('adds.php'); ?></b></span> </h5>
             <form method="POST" target="_top" autocomplete="on" enctype="multipart/form-data">
               <div class="row mb-3">
                 <div class="row mb-3">
@@ -54,7 +54,7 @@ session_start();
                 <div class="row mb-3">
                   <label class="col-sm-2 col-form-label">Submit Button</label>
                   <div class="col-sm-10">
-                    <button type="submit" name="submit" class="btn btn-primary">Submit Product</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Submit Blog</button>
                   </div>
                 </div>
             </form>
