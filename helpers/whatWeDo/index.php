@@ -17,7 +17,7 @@
                     </p>
 
                     <!-- Paragraph 2 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Structured dialogues: </span>
                         Our learning approaches are grounded on theories from various scholars that, learning cannot occur without dialogue and reflection. Reading and listening are not enough.
                         <span id="dots2">...</span><span id="more2" style="display:none;">
@@ -27,7 +27,7 @@
                     </p>
 
                     <!-- Paragraph 3 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Domestic resource mobilization to improve quality of SRH services: </span>
                         Our organization strongly believe that domestic government spending on family planning should become the mainstay of a country’s family planning program, providing a budgeted flow of funds for services and staff.
                         <span id="dots3">...</span><span id="more3" style="display:none;">
@@ -37,7 +37,7 @@
                     </p>
 
                     <!-- Paragraph 4 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Strengthening movement of women and girls led CSOs:</span>
                         Our organization believes that women and girls are experts of their own needs and therefore meaningful engagement and involvement of women in policy development, planning, budgeting and all SRH interventions is paramount.
                         <span id="dots4">...</span><span id="more4" style="display:none;">
@@ -49,7 +49,7 @@
                     <center><h2>Our Core Strength</h2></center>
 
                     <!-- Paragraph 5 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Innovative programming: </span>
                         Our interventions always seek creation and implementation of new and creative methods and techniques which will enhance our efficiency and effectiveness in reaching more women and girls.
                         <span id="dots5">...</span><span id="more5" style="display:none;">
@@ -59,7 +59,7 @@
                     </p>
 
                     <!-- Paragraph 6 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Focus on depth and not just scale: </span>
                         In our organization, prioritizing depth over mere target achievement is paramount. Rather than focusing solely on hitting numerical goals, deliberate efforts are made in the design and implementation of the program towards fostering genuine understanding and empathy among women and girls.
                         <span id="dots6">...</span><span id="more6" style="display:none;">
@@ -69,7 +69,7 @@
                     </p>
 
                     <!-- Paragraph 7 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Gender Equality and Social Inclusion mainstreaming: </span>
                         Gender Equality and Social Inclusion (GESI) is a cornerstone of our programming. Our programme activities are designed with both practical and strategic needs of women and girls, and other excluded groups in mind.
                         <span id="dots7">...</span><span id="more7" style="display:none;">
@@ -79,7 +79,7 @@
                     </p>
 
                     <!-- Paragraph 8 with Read More -->
-                    <p>
+                    <p style="margin-bottom: 60px; font-size: 20px;">
                         <span style="color: #F27D2D; font-weight: bold; font-style: italic;">Institutionalized intersectionality: </span>
                         Our interventions always seek to understand the ways that multiple forms of inequality or disadvantage sometimes compound themselves and create obstacles that often are not understood among conventional ways of thinking.
                         <span id="dots8">...</span><span id="more8" style="display:none;">
