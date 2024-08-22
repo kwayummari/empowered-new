@@ -74,20 +74,20 @@ if (isset($_GET['member'])) {
             <h2>Awesome guys behind our activities</h2>
         </div>
         <div class="row">
-            <?php foreach ($boardMembers as $index => $member) : ?>
+            <?php foreach ($boardMembers as $index => $bMember) : ?>
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
-                    <a href="?member=<?= $index ?>">
+                    <a href="?bMember=<?= $index ?>">
                         <div class="team-img">
-                            <img src="<?= $member['image'] ?>" alt="Team Image">
+                            <img src="<?= $bMember['image'] ?>" alt="Team Image">
                         </div>
                     </a>
                 </div>
                 <div class="team-text">
-                            <h2><?= $member['name'] ?></h2>
-                            <p><?= $member['role'] ?></p>
+                            <h2><?= $bMember['name'] ?></h2>
+                            <p><?= $bMember['role'] ?></p>
                             <div class="team-social">
-                                <?php foreach ($member['socialLinks'] as $platform => $link) : ?>
+                                <?php foreach ($bMember['socialLinks'] as $platform => $link) : ?>
                                     <a href="<?= $link ?>"><i class="fab fa-<?= $platform ?>"></i></a>
                                 <?php endforeach; ?>
                             </div>
