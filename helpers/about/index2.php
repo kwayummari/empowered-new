@@ -12,7 +12,7 @@
                 <div>
                     <ul>
                     <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px; align-items: center;">
                                 <i class="fas fa-book" style="font-size: 40px;"></i> About
                             </a>
                             <p>We are a women rights organization that seeks to empower
