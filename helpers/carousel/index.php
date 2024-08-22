@@ -9,10 +9,6 @@
                             <p>
                                 Empowered women make informed decisions about their bodies and health leading to healthier pregnancies and better reproductive health outcomes.
                             </p>
-                            <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Donate Now</a>
-                                <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a>
-                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -23,10 +19,6 @@
                             <p>
                             Empowered women have full control over their reproductive choices, they can plan their careers and families better, which positively impacts their ability to contribute to and benefit from economic growth.
                             </p>
-                            <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Donate Now</a>
-                                <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a>
-                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
