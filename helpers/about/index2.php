@@ -25,17 +25,17 @@
                             operate in Tanzania mainland.</p>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
+                            <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-bullseye" style="font-size: 40px;"></i> Mission
-                            </a>
+                            </a></center>
                             <p>To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
                             for them to exercise their rights and fulfill their potentials.</p>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#tab-content-3" style="font-size: 30px;">
+                            <center><a class="nav-link" data-toggle="pill" href="#tab-content-3" style="font-size: 30px;">
                                 <i class="fas fa-eye" style="font-size: 40px;"></i> Vision
-                            </a>
+                            </a></center>
                             <p>Empowered women and girls enjoy their rights and fulfill their potentials.</p>
                         </li>
                     </ul>
