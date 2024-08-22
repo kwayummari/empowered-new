@@ -83,7 +83,8 @@ if (isset($_GET['member'])) {
                         </div>
                     </a>
                 </div>
-                <div class="team-text">
+            </div>
+            <div class="team-text">
                             <h2><?= $member['name'] ?></h2>
                             <p><?= $member['role'] ?></p>
                             <div class="team-social">
@@ -92,7 +93,6 @@ if (isset($_GET['member'])) {
                                 <?php endforeach; ?>
                             </div>
                         </div>
-            </div>
             <?php endforeach; ?>
         </div>
     </div>
