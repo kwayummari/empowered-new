@@ -1,5 +1,5 @@
 <?php
-$teamMembers = [
+$boardMembers = [
     [
         "name" => "Judith Justine Kweka",
         "role" => "Board Chair",
@@ -63,7 +63,7 @@ $teamMembers = [
 ];
 
 if (isset($_GET['member'])) {
-    $selectedMember = $teamMembers[$_GET['member']];
+    $selectedMember = $boardMembers[$_GET['member']];
 }
 ?>
 
@@ -74,7 +74,7 @@ if (isset($_GET['member'])) {
             <h2>Awesome guys behind our activities</h2>
         </div>
         <div class="row">
-            <?php foreach ($teamMembers as $index => $member) : ?>
+            <?php foreach ($boardMembers as $index => $member) : ?>
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
                     <a href="?member=<?= $index ?>">
