@@ -15,7 +15,7 @@
                             <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-book" style="font-size: 40px;"></i> About
                             </a></center>
-                            <p>We are a women rights organization that seeks to empower
+                            <p style="text-align: center;">We are a women rights organization that seeks to empower
                             women and girls of all abilities to realize their reproductive
                             health goals by providing them with tools to make informed
                             decisions and creating enabling environment for them to
@@ -28,7 +28,7 @@
                             <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-bullseye" style="font-size: 40px;"></i> Mission
                             </a></center>
-                            <p>To empower women, girls and marginalized groups with correct
+                            <p style="text-align: center;">To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
                             for them to exercise their rights and fulfill their potentials.</p>
                         </li>
@@ -36,7 +36,7 @@
                             <center><a class="nav-link" data-toggle="pill" href="#tab-content-3" style="font-size: 30px;">
                                 <i class="fas fa-eye" style="font-size: 40px;"></i> Vision
                             </a></center>
-                            <p>Empowered women and girls enjoy their rights and fulfill their potentials.</p>
+                            <p style="text-align: center;">Empowered women and girls enjoy their rights and fulfill their potentials.</p>
                         </li>
                     </ul>
                 </div>
