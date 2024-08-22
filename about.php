@@ -25,7 +25,7 @@
     </div>
     <!-- Page Header End -->
     <!-- About Start -->
-    <?php include 'helpers/about/index.php' ?>
+    <?php include 'helpers/about/index2.php' ?>
     <!-- About End -->
     <!-- coreValues Start -->
     <?php include 'helpers/coreValues/index.php' ?>
