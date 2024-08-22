@@ -353,7 +353,15 @@ a:focus {
     }
 }
 
-
+@media (max-width: 450px) { 
+    .carousel {
+        position: relative;
+        width: 100%;
+        min-height: 100px;
+        background: #ffffff;
+        margin-bottom: 45px;
+    }
+ }
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
