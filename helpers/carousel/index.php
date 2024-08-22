@@ -33,7 +33,7 @@
                         <div class="carousel-img">
                             <img src="img/slider/women1.webp" alt="Image">
                         </div>
-                        <div class="carousel-text">
+                        <div class="carousel-text" style="align-items: right;">
                             <p>
                             Empowered women advocate for their rights and challenge discriminatory policies and practices.
                             </p>
