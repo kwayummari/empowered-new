@@ -10,12 +10,11 @@
                     <h2>EMPOWERED FOR CHANGE</h2> -->
                 </div>
                 <div>
-                    <ol>
-                    <li class="nav-item">
-                            <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
+                    <div class="col-lg-12">
+                        <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-book" style="font-size: 40px;"></i> About
                             </a></center> -->
-                            <p style="text-align: center; font-size: 20px;">We are a women rights organization that seeks to empower
+                        <p style="text-align: center; font-size: 20px;">We are a women rights organization that seeks to empower
                             women and girls of all abilities to realize their reproductive
                             health goals by providing them with tools to make informed
                             decisions and creating enabling environment for them to
@@ -23,22 +22,21 @@
                             under the non-governmental organizations ACT, 2002 on 25th
                             February 2022 with a registration number ooNGO/R/2844 to
                             operate in Tanzania mainland.</p>
-                        </li>
-                        <li class="nav-item">
-                            <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-bullseye" style="font-size: 40px;"></i> Mission
                             </a></center> -->
-                            <p style="text-align: center; font-size: 20px;">To empower women, girls and marginalized groups with correct
+                        <p style="text-align: center; font-size: 20px;">To empower women, girls and marginalized groups with correct
                             knowledge and skills while creating an enabling environment
                             for them to exercise their rights and fulfill their potentials.</p>
-                        </li>
-                        <li class="nav-item">
-                            <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-3" style="font-size: 30px;">
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <center><a class="nav-link" data-toggle="pill" href="#tab-content-3" style="font-size: 30px;">
                                 <i class="fas fa-eye" style="font-size: 40px;"></i> Vision
                             </a></center> -->
-                            <p style="text-align: center; font-size: 20px;">Empowered women and girls enjoy their rights and fulfill their potentials.</p>
-                        </li>
-                    </ol>
+                        <p style="text-align: center; font-size: 20px;">Empowered women and girls enjoy their rights and fulfill their potentials.</p>
+                    </div>
                 </div>
             </div>
         </div>
