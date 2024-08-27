@@ -1,10 +1,10 @@
 <div class="about">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="about-img" data-parallax="scroll" data-image-src="img/about/about.webp"></div>
-            </div>
-            <div class="col-lg-6">
+            </div> -->
+            <div class="col-lg-12">
                 <div class="section-header">
                     <!-- <p>Learn About Us</p>
                     <h2>EMPOWERED FOR CHANGE</h2> -->
