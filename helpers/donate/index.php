@@ -4,10 +4,10 @@
 <div class="d-flex justify-content-center align-items-center bg-light">
     <div class="card p-4" style="max-width: 400px; width: 100%;">
         <ul class="nav nav-tabs" id="donationTabs" role="tablist">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item"  style="max-width: 100%; white-space: nowrap;" role="presentation">
                 <button class="nav-link active" id="one-time-tab" data-bs-toggle="tab" data-bs-target="#one-time" type="button" role="tab" aria-controls="one-time" aria-selected="true">One Time</button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item"  style="max-width: 100%; white-space: nowrap;" role="presentation">
                 <button class="nav-link" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" type="button" role="tab" aria-controls="monthly" aria-selected="false">Monthly</button>
             </li>
         </ul>
