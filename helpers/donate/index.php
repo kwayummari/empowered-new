@@ -1,4 +1,7 @@
-<div class="d-flex justify-content-center align-items-center bg-light" style="height: 100vh;">
+<div class="section-header text-center">
+    <h2>OUR CORE VALUES</h2>
+</div>
+<div class="d-flex justify-content-center align-items-center bg-light">
     <div class="card p-4" style="max-width: 400px; width: 100%;">
         <ul class="nav nav-tabs" id="donationTabs" role="tablist">
             <li class="nav-item" role="presentation">
