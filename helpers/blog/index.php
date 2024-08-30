@@ -8,8 +8,7 @@ $result = mysqli_query($connect, $query);
 <div class="blog">
     <div class="container">
         <div class="section-header text-center">
-            <p>Our Blog</p>
-            <h2>Latest news & articles directly from our blog</h2>
+            <p>NEWS AND UPDATES</p>
         </div>
         <div class="row">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
