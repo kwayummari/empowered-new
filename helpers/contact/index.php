@@ -2,7 +2,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>Get In Touch</p>
-                <h2>Contact for any query</h2>
+                <!-- <h2>Contact for any query</h2> -->
             </div>
             <!-- <div class="contact-img">
                 <img src="img/topper2.webp" alt="Image">
