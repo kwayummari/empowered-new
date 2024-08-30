@@ -4,9 +4,9 @@
                 <p>Get In Touch</p>
                 <h2>Contact for any query</h2>
             </div>
-            <div class="contact-img">
+            <!-- <div class="contact-img">
                 <img src="img/topper2.webp" alt="Image">
-            </div>
+            </div> -->
             <div class="contact-form">
                 <div id="success"></div>
                 <form name="sentMessage" id="contactForm" action="send_email.php" method="post" novalidate="novalidate">

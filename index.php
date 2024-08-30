@@ -30,9 +30,6 @@
     <!-- Blog Start -->
     <?php include 'helpers/blog/index.php' ?>
     <!-- Blog End -->
-    <!-- Contact Start -->
-    <?php include 'helpers/contact/index.php' ?>
-    <!-- Contact End -->
     <!-- Footer Start -->
     <?php include 'helpers/footer/index.php' ?>
     <!-- Footer End -->
