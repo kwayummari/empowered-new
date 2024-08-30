@@ -1,53 +1,31 @@
-<div class="container">
-
-<ul class="tabs">
-	<li><a href="#tab1">1. Amount</a></li>
-	<li><a href="#tab2">2. Name</a></li>
-	<li><a href="#tab3">3. Payment</a></li>
-</ul><!-- end .tabs -->
-
-<div class="step" id="tab1">
-	<h3>Select a Donation Amount</h3>
-	<div class="amount">$10</div>
-	<div class="amount">$25</div>
-	<div class="amount">$50</div>
-	<div class="amount">
-		<input type="text" />
-	</div>
-	
-	<div class="next">Next <i class="ion-ios-arrow-forward"></i></div>
-</div><!-- end #tab1 -->
-
-<div class="step" id="tab2">
-	<h3>Name &amp; Info</h3>
-	<form action="" class="info">
-		<label for="name">Name</label>
-		<input type="text" name="name" id="name" />
-		
-		<label for="email">email</label>
-		<input type="email" name="email" id="email" placeholder="feelthebern@gmail.com" />
-		
-		<label for="address">address</label>
-		<input type="text" name="address" id="address" />
-		
-		<label for="state">State</label>
-		<select name='state'>
-		  <option value='SQ'>ST</option>
-		  <option value='SW'>SW</option>
-		  <option value='SE'>SE</option>
-		</select>
-		
-		<label for="zip">ZIP</label>
-		<input type="text" name="zip" id="zip" />
-		
-		label
-	</form>
-	<div class="next">Next <i class="ion-ios-arrow-forward"></i></div>
-</div><!-- end #tab2 -->
-
-<div class="step" id="tab3">
-	<div class="final">Complete Donation <i class="ion-checkmark"></i></div>
-</div><!-- end #tab2 -->
-	
-</div><!-- end .container -->
-
+<div class="card p-4" style="max-width: 400px; width: 100%;">
+    <ul class="nav nav-tabs" id="donationTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="one-time-tab" data-bs-toggle="tab" data-bs-target="#one-time" type="button" role="tab" aria-controls="one-time" aria-selected="true">One Time</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" type="button" role="tab" aria-controls="monthly" aria-selected="false">Monthly</button>
+        </li>
+    </ul>
+    <div class="tab-content mt-3" id="donationTabsContent">
+        <div class="tab-pane fade show active" id="one-time" role="tabpanel" aria-labelledby="one-time-tab">
+            <div class="list-group overflow-auto" style="max-height: 150px;">
+                <button type="button" class="list-group-item list-group-item-action">$10</button>
+                <button type="button" class="list-group-item list-group-item-action">$25</button>
+                <button type="button" class="list-group-item list-group-item-action">$50</button>
+                <button type="button" class="list-group-item list-group-item-action">$100</button>
+                <button type="button" class="list-group-item list-group-item-action">$250</button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+            <div class="list-group overflow-auto" style="max-height: 150px;">
+                <button type="button" class="list-group-item list-group-item-action">$5/month</button>
+                <button type="button" class="list-group-item list-group-item-action">$10/month</button>
+                <button type="button" class="list-group-item list-group-item-action">$20/month</button>
+                <button type="button" class="list-group-item list-group-item-action">$50/month</button>
+                <button type="button" class="list-group-item list-group-item-action">$100/month</button>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary w-100 mt-3">Donate Now</button>
+</div>
