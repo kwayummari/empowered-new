@@ -9,21 +9,21 @@
     </ul>
     <div class="tab-content mt-3" id="donationTabsContent">
         <div class="tab-pane fade show active" id="one-time" role="tabpanel" aria-labelledby="one-time-tab">
-            <div class="list-group overflow-auto" style="max-height: 150px;">
-                <button type="button" class="list-group-item list-group-item-action">$10</button>
-                <button type="button" class="list-group-item list-group-item-action">$25</button>
-                <button type="button" class="list-group-item list-group-item-action">$50</button>
-                <button type="button" class="list-group-item list-group-item-action">$100</button>
-                <button type="button" class="list-group-item list-group-item-action">$250</button>
+            <div class="d-flex overflow-auto" style="max-width: 100%; white-space: nowrap;">
+                <button type="button" class="btn btn-outline-primary me-2">$10</button>
+                <button type="button" class="btn btn-outline-primary me-2">$25</button>
+                <button type="button" class="btn btn-outline-primary me-2">$50</button>
+                <button type="button" class="btn btn-outline-primary me-2">$100</button>
+                <button type="button" class="btn btn-outline-primary me-2">$250</button>
             </div>
         </div>
         <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
-            <div class="list-group overflow-auto" style="max-height: 150px;">
-                <button type="button" class="list-group-item list-group-item-action">$5/month</button>
-                <button type="button" class="list-group-item list-group-item-action">$10/month</button>
-                <button type="button" class="list-group-item list-group-item-action">$20/month</button>
-                <button type="button" class="list-group-item list-group-item-action">$50/month</button>
-                <button type="button" class="list-group-item list-group-item-action">$100/month</button>
+            <div class="d-flex overflow-auto" style="max-width: 100%; white-space: nowrap;">
+                <button type="button" class="btn btn-outline-primary me-2">$5/month</button>
+                <button type="button" class="btn btn-outline-primary me-2">$10/month</button>
+                <button type="button" class="btn btn-outline-primary me-2">$20/month</button>
+                <button type="button" class="btn btn-outline-primary me-2">$50/month</button>
+                <button type="button" class="btn btn-outline-primary me-2">$100/month</button>
             </div>
         </div>
     </div>
