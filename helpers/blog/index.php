@@ -12,22 +12,24 @@ $result = mysqli_query($connect, $query);
         </div>
         <div class="row">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
-                <div class="col-lg-4">
-                    <div class="blog-item" 
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item h-100"
                          data-bs-toggle="modal" data-bs-target="#blogModal"
                          data-title="<?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?>"
                          data-caption="<?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?>"
                          data-description="<?php echo htmlspecialchars(nl2br($blog['description']), ENT_QUOTES, 'UTF-8'); ?>"
                          data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>">
-                        <div class="blog-img">
-                            <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="Image">
+                        <div class="blog-img" style="width: 100%; height: 200px; overflow: hidden;">
+                            <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" 
+                                 alt="Image" 
+                                 class="img-fluid w-100 h-100 object-fit-cover">
                         </div>
-                        <div class="blog-text">
-                            <h3><a href="#"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
+                        <div class="blog-text p-3" style="height: 150px;">
+                            <h3><a href="#" class="text-dark"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
                             <p><?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?></p>
                         </div>
-                        <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="#">EMPOWERED FOR CHANGE</a></p>
+                        <div class="blog-meta p-3">
+                            <p><i class="fa fa-user"></i> <a href="#">EMPOWERED FOR CHANGE</a></p>
                         </div>
                     </div>
                 </div>
