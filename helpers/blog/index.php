@@ -28,9 +28,9 @@ $result = mysqli_query($connect, $query);
                             <h3><a href="#" class="text-dark"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
                             <p><?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?></p>
                         </div>
-                        <div class="blog-meta p-3">
+                        <!-- <div class="blog-meta p-3">
                             <p><i class="fa fa-user"></i> <a href="#">EMPOWERED FOR CHANGE</a></p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             <?php } ?>
