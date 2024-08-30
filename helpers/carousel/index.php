@@ -7,7 +7,7 @@
                         </div>
                         <div class="carousel-text">
                             <p style="text-align: right;">
-                                Empowered women make informed decisions about their bodies and health leading to healthier pregnancies and better reproductive health outcomes.
+                            Empowered women advocate for their rights and challenge discriminatory policies and practices.
                             </p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                         </div>
                         <div class="carousel-text" style="align-items: right;">
                             <p style="text-align: right;">
-                            Empowered women advocate for their rights and challenge discriminatory policies and practices.
+                            Empowered women make informed decisions about their bodies and health leading to healthier pregnancies and better reproductive health outcomes.
                             </p>
                         </div>
                     </div>
