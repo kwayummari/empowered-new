@@ -16,6 +16,7 @@
                     <div class="dropdown-menu">
                         <a href="internship.php" class="dropdown-item">Internship</a>
                         <a href="jobs.php" class="dropdown-item">Job Adverts</a>
+                        <a href="volunteer.php" class="dropdown-item">Become a Volunteer</a>
                     </div>
                 </div>
                 <div class="carousel-btn">
