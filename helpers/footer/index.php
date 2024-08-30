@@ -6,7 +6,7 @@
                     <h2>Our Head Office</h2>
                     <p><i class="fa fa-map-marker-alt"></i>Plot number 640 Block B Sinza, Zinga Street, Sinza B, Ubungo, Dar Es Salaam </p>
                     <p><i class="fa fa-phone-alt"></i>+255(0) 767 439217</p>
-                    <p><i class="fa fa-envelope"></i>empoweredforchangetx@gmail.com</p>
+                    <p><i class="fa fa-envelope"></i>info@empoweredforchange.or.tz</p>
                     <div class="footer-social">
                         <a class="btn btn-custom" href="https://x.com/E4Ctanzania?lang=en"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-custom" href="https://www.facebook.com/E4Ctanzania/"><i class="fab fa-facebook-f"></i></a>
@@ -51,7 +51,7 @@
                 <p>&copy; <a href="#">E4C</a>, All Right Reserved.</p>
             </div>
             <div class="col-md-6">
-                <p>Designed By <a href="https://aurorawavelabs.com/">AURORAWAVE LABS</a></p>
+                <p>Designed By <a href="#">#</a></p>
             </div>
         </div>
     </div>
