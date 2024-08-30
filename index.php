@@ -17,6 +17,7 @@
     <!-- About Start -->
     <?php include 'helpers/about/index2.php' ?>
     <!-- About End -->
+     <?php include "helpers/donate/index.php" ?>
     <!-- Facts Start -->
     <?php include 'helpers/facts/index.php' ?>
     <!-- Facts End -->
