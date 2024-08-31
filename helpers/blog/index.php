@@ -12,7 +12,7 @@ $result = mysqli_query($connect, $query);
         </div>
         <div class="row">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 <?php if ($num_items < 3) echo 'mx-auto'; ?>">
                     <div class="blog-item h-100"
                          data-bs-toggle="modal" data-bs-target="#blogModal"
                          data-title="<?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?>"
