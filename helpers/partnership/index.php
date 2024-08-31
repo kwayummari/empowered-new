@@ -8,7 +8,7 @@
                         <h2>We expect to work with various partners.</h2>
                     </div>
                     <div class="donate-text">
-                        <p>
+                        <!-- <p>
                             The organization will work closely with
                             the government through the ministry of
                             Community Development, Gender, Women and
@@ -18,7 +18,7 @@
                             that all opportunities provided for women in
                             sustainable development goods are being accumulated
                             effectively by them.
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
