@@ -24,12 +24,12 @@
     <!-- Causes Start -->
     <?php include 'helpers/causes/index.php' ?>
     <!-- Causes End -->
-    <!-- Donate Start -->
-    <?php include 'helpers/partnership/index.php' ?>
-    <!-- Donate End -->
     <!-- Blog Start -->
     <?php include 'helpers/blog/index.php' ?>
     <!-- Blog End -->
+     <!-- Donate Start -->
+    <?php include 'helpers/partnership/index.php' ?>
+    <!-- Donate End -->
     <!-- Footer Start -->
     <?php include 'helpers/footer/index.php' ?>
     <!-- Footer End -->
