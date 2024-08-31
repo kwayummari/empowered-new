@@ -1,3 +1,4 @@
+<br><br>
 <div class="section-header text-center">
     <h2>OUR IMPACT</h2>
 </div>
