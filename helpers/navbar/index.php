@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg bg-white navbar-dark" style="background-color: white;">
+<div class="navbar navbar-expand-lg bg-white navbar-white" style="background-color: white;">
     <div class="container-fluid">
         <a href="index.php" class="navbar-brand"><img src="img/logo/EFC LOGO-05.jpg" alt=""></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
