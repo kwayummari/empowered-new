@@ -22,7 +22,7 @@ $result = mysqli_query($connect, $query);
                         <div class="blog-img" style="width: 100%; height: 300px; overflow: hidden;">
                             <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" 
                                  alt="Image" 
-                                 class="img-fluid w-100 h-100 object-fit-cover">
+                                 class="img-fluid w-100 h-200 object-fit-cover">
                         </div>
                         <div class="blog-text p-3" style="height: 150px;">
                             <h3><a href="#" class="text-dark"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
