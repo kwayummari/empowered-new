@@ -323,12 +323,12 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #f27d2d !important;
+        background: #20212B !important;
         border-bottom: none;
     }
     
     .page .navbar {
-        background: #f27d2d !important;
+        background: #20212B !important;
     }
     
     .navbar a.nav-link {
@@ -341,7 +341,8 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #20212B !important;
+        background: #f27d2d !important;
+        color: white !important;
     }
     
     .navbar a.nav-link {
