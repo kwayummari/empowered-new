@@ -19,7 +19,7 @@ $result = mysqli_query($connect, $query);
                          data-caption="<?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?>"
                          data-description="<?php echo htmlspecialchars(nl2br($blog['description']), ENT_QUOTES, 'UTF-8'); ?>"
                          data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>">
-                        <div class="blog-img" style="width: 100%; height: 200px; overflow: hidden;">
+                        <div class="blog-img" style="width: 100%; height: 300px; overflow: hidden;">
                             <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>" 
                                  alt="Image" 
                                  class="img-fluid w-100 h-100 object-fit-cover">
