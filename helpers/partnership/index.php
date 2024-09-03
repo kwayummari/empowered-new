@@ -1,3 +1,6 @@
+<div class="section-header text-center">
+            <h2>Our Partners</h2>
+        </div>
 <div class="donate" data-parallax="scroll" data-image-src="img/topper2.webp">
     <div class="container">
         <div class="row align-items-center">
@@ -5,7 +8,7 @@
                 <div class="donate-content">
                     <div class="section-header">
                         <p>WE BELIEVE IN PARTNERSHIP </p>
-                        <h2>We expect to work with various partners.</h2>
+                        <!-- <h2>We expect to work with various partners.</h2> -->
                     </div>
                     <div class="donate-text">
                         <div class="logo-list">
