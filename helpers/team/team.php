@@ -34,10 +34,10 @@ if (isset($_GET['member'])) {
 <div class="team">
     <div class="container">
         <div class="section-header text-center">
-            <p>Meet Our Team Members</p>
-            <h2>Awesome guys behind our success</h2>
+            <p>Our team</p>
+            <!-- <h2>Awesome guys behind our success</h2> -->
         </div>
-        <div class="row">
+        <div class="row team-container">
             <?php foreach ($teamMembers as $index => $member) : ?>
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">

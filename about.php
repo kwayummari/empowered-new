@@ -24,15 +24,9 @@
         </div>
     </div>
     <!-- Page Header End -->
-    <!-- About Start -->
-    <?php include 'helpers/about/index3.php' ?>
-    <!-- About End -->
     <!-- coreValues Start -->
     <?php include 'helpers/coreValues/index.php' ?>
     <!-- coreValues End -->
-    <!-- Facts Start -->
-    <?php include 'helpers/facts/index.php' ?>
-    <!-- Facts End -->
     <!-- Board Start -->
     <?php include 'helpers/team/index.php' ?>
     <!-- Board End -->

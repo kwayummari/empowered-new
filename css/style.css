@@ -1124,6 +1124,12 @@ a:focus {
   padding: 45px 0 15px 0;
 }
 
+.team-container {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+}
+
 .team .team-item {
   position: relative;
   margin-bottom: 35px;

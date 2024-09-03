@@ -70,8 +70,7 @@ if (isset($_GET['bMember'])) {
 <div class="team">
     <div class="container">
         <div class="section-header text-center">
-            <p>Meet Our Board Members</p>
-            <h2>Awesome guys behind our activities</h2>
+            <p>Our Board members</p>
         </div>
         <div class="row">
             <?php foreach ($boardMembers as $index => $bMember) : ?>
