@@ -1,10 +1,10 @@
 <div class="section-header text-center">
-            <h2>Our Partners</h2>
+            <p>Our Partners</p>
         </div>
         <div class="col-lg-12">
                 <div class="donate-content">
                     <div class="section-header">
-                        <p>WE BELIEVE IN PARTNERSHIP </p>
+                        <!-- <p>WE BELIEVE IN PARTNERSHIP </p> -->
                         <!-- <h2>We expect to work with various partners.</h2> -->
                     </div>
                     <div class="donate-text" style="background-color: white;">
