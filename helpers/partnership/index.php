@@ -1,10 +1,7 @@
 <div class="section-header text-center">
             <h2>Our Partners</h2>
         </div>
-<div class="donate" data-parallax="scroll" data-image-src="img/topper2.webp">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
+        <div class="col-lg-12">
                 <div class="donate-content">
                     <div class="section-header">
                         <p>WE BELIEVE IN PARTNERSHIP </p>
@@ -18,6 +15,10 @@
                     </div>
                 </div>
             </div>
+<div class="donate" data-parallax="scroll" data-image-src="img/topper2.webp">
+    <div class="container">
+        <div class="row align-items-center">
+            
         </div>
     </div>
 </div>
