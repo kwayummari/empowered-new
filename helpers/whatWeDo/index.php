@@ -26,7 +26,7 @@
                     </div>
                     <div class="service-text">
                         <h3><a href="#" data-toggle="modal" data-target="#empowermentModal">Structured dialogues:</a></h3>
-                        <p>Our innovative approaches are designed to create lasting and meaningful change. By leveraging new ideas and cutting-edge solutions, we address challenges in unique and effective ways...</p>
+                        <p>Our innovative approaches are designed to create lasting and meaningful change. By leveraging new ideas and ...</p>
                         <a href="#" data-toggle="modal" data-target="#empowermentModal">Read More</a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="service-text">
                         <h3><a href="#" data-toggle="modal" data-target="#inclusivityModal">Domestic resource mobilization to improve quality of SRH services:</a></h3>
-                        <p>Our organization strongly believe that domestic government spending on family planning should become the mainstay of a country’s family planning program, providing a budgeted flow of funds for services and staff...</p>
+                        <p>Our organization strongly believe that domestic government ...</p>
                         <a href="#" data-toggle="modal" data-target="#inclusivityModal">Read More</a>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="service-text">
                         <h3><a href="#" data-toggle="modal" data-target="#respectModal">Strengthening movement of women and girls led CSOs:</a></h3>
-                        <p>Our organization believes that women and girls are experts of their own needs and therefore meaningful engagement and involvement of women in policy development, planning, budgeting and all SRH interventions is paramount. ...</p>
+                        <p>Our organization believes that women and girls are experts of their own needs and therefore meaningful...</p>
                         <a href="#" data-toggle="modal" data-target="#respectModal">Read More</a>
                     </div>
                 </div>
