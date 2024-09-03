@@ -4,7 +4,7 @@
 <div class="donate" data-parallax="scroll" data-image-src="img/topper2.webp">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="donate-content">
                     <div class="section-header">
                         <p>WE BELIEVE IN PARTNERSHIP </p>
