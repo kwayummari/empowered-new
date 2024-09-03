@@ -26,7 +26,7 @@
                     </div>
                     <div class="service-text">
                         <h3><a href="#" data-toggle="modal" data-target="#empowermentModal">Focus on depth and not just scale:</a></h3>
-                        <p>n our organization, prioritizing depth over mere target achievement is paramount. Rather than focusing solely on hitting numerical goals, deliberate efforts are made in the design and implementation of the program towards fostering genuine understanding and empathy among women and girls. ...</p>
+                        <p>n our organization, prioritizing depth over mere target achievement is paramount. Rather than focusing solely on hitting numerical goals, deliberate...</p>
                         <a href="#" data-toggle="modal" data-target="#empowermentModal">Read More</a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="service-text">
                         <h3><a href="#" data-toggle="modal" data-target="#inclusivityModal">Gender Equality and Social Inclusion mainstreaming:</a></h3>
-                        <p>Gender Equality and Social Inclusion (GESI) is a cornerstone of our programming. Our programme activities are designed with both practical and strategic needs of women and girls, and other excluded groups in mind. ...</p>
+                        <p>Gender Equality and Social Inclusion (GESI) is a cornerstone of our programming. Our programme activities are designed with both practical and strategic needs of women and...</p>
                         <a href="#" data-toggle="modal" data-target="#inclusivityModal">Read More</a>
                     </div>
                 </div>
