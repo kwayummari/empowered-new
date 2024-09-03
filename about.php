@@ -16,7 +16,7 @@
                 <div class="col-12">
                     <!-- <h2>About Us</h2> -->
                 </div>
-                <div class="col-12" style="color: black;">
+                <div class="col-12">
                     <a href="index.php">Home</a>
                     <a href="#">Who we are</a>
                 </div>
