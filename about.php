@@ -24,6 +24,9 @@
         </div>
     </div>
     <!-- Page Header End -->
+     <!-- About Start -->
+    <?php include 'helpers/about/index4.php' ?>
+    <!-- About End -->
     <!-- coreValues Start -->
     <?php include 'helpers/coreValues/index.php' ?>
     <!-- coreValues End -->
