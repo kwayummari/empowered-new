@@ -72,7 +72,7 @@ if (isset($_GET['bMember'])) {
         <div class="section-header text-center">
             <p>Our Board members</p>
         </div>
-        <div class="row">
+        <div class="row team-container">
             <?php foreach ($boardMembers as $index => $bMember) : ?>
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
