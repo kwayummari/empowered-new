@@ -14,11 +14,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>About Us</h2>
+                    <!-- <h2>About Us</h2> -->
                 </div>
                 <div class="col-12">
                     <a href="index.php">Home</a>
-                    <a href="#">About Us</a>
+                    <a href="#">Who we are</a>
                 </div>
             </div>
         </div>
