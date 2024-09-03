@@ -8,17 +8,10 @@
                         <h2>We expect to work with various partners.</h2>
                     </div>
                     <div class="donate-text">
-                        <!-- <p>
-                            The organization will work closely with
-                            the government through the ministry of
-                            Community Development, Gender, Women and
-                            Special Groups together with other development
-                            partners such as the United Nations System
-                            in Tanzania and the private sector to ensure
-                            that all opportunities provided for women in
-                            sustainable development goods are being accumulated
-                            effectively by them.
-                        </p> -->
+                        <div class="logo-list">
+                            <img src="img/partners/1.png" alt="Logo 1">
+                            <img src="img/partners/2.png" alt="Logo 2">
+                        </div>
                     </div>
                 </div>
             </div>
