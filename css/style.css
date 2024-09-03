@@ -573,7 +573,7 @@ a:focus {
 .page-header {
   position: relative;
   margin-bottom: 45px;
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 100px 0 90px 0;
   text-align: center;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
