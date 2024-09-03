@@ -34,6 +34,7 @@
         <!-- Projects End -->
          <!-- What we do Start -->
         <?php include 'helpers/whatWeDo/index.php' ?>
+        <?php include 'helpers/whatWeDo/index2.php' ?>
         <!-- What we do End -->
         <!-- Footer Start -->
         <?php include 'helpers/footer/index.php' ?>
