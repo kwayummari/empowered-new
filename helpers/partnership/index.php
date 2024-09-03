@@ -12,7 +12,7 @@
                     </div>
                 </div>
             </div>
-            <div class="donate-text col-lg-12" style="background-color: white;">
+            <div class="col-lg-12" style="background-color: white;">
                 <div class="logo-list">
                     <img src="img/partners/1.png" alt="Logo 1">
                     <img src="img/partners/2.png" alt="Logo 2">
