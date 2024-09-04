@@ -5,7 +5,7 @@
                 <div class="donate-content">
                     <div class="donate-text" style="background-color: white;">
                         <div class="logo-list">
-                            <img src="img/partners/1.png" height="60px" alt="Logo 1">
+                            <img src="img/partners/3.png" height="60px" alt="Logo 1">
                             <img src="img/partners/2.png" alt="Logo 2">
                         </div>
                     </div>
