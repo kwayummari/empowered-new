@@ -20,7 +20,7 @@ $result = mysqli_query($connect, $query);
             <div class="row">
                 <div class="col-12">
                     <a href="">Home /</a>
-                    <a href="">Blog</a>
+                    <a href="">News and Insights</a>
                 </div>
             </div>
         </div>
