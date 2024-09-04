@@ -9,11 +9,10 @@ $result = mysqli_query($connect, $query);
     <div class="container">
         <div class="section-header text-center">
             <p>Our Projects</p>
-            <h2>Latest Projects</h2>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-flex justify-content-center">
                     <div class="blog-item" 
                          data-bs-toggle="modal" data-bs-target="#blogModal"
                          data-title="<?php echo htmlspecialchars($blog['title']); ?>"
