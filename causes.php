@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <a href="index.php">Home </a>
+                        <a href="index.php">Home</a>
                         <a href="#">What we do</a>
                     </div>
                 </div>
