@@ -6,8 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $name = $_GET['name'];
     $email = $_GET['email'];
     $reason = $_GET['reason'];
-
-    // Insert data into the database
     $stmt = $connect->prepare("INSERT INTO volunteer (name, email, reason) VALUES (?, ?, ?)");
     $stmt->bind_param("sss", $name, $email, $reason);
 
