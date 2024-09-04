@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM internship ORDER BY id DESC";
+$query = "SELECT * FROM internship WHERE status = 1 ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
 ?>
 <!DOCTYPE html>
