@@ -3,13 +3,9 @@
         </div>
         <div class="col-lg-12">
                 <div class="donate-content">
-                    <div class="section-header">
-                        <!-- <p>WE BELIEVE IN PARTNERSHIP </p> -->
-                        <!-- <h2>We expect to work with various partners.</h2> -->
-                    </div>
                     <div class="donate-text" style="background-color: white;">
                         <div class="logo-list">
-                            <img src="img/partners/1.png" alt="Logo 1">
+                            <img src="img/partners/1.png" height="60px" alt="Logo 1">
                             <img src="img/partners/2.png" alt="Logo 2">
                         </div>
                     </div>
