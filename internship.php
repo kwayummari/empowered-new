@@ -12,7 +12,7 @@ $result = mysqli_query($connect, $query);
     <?php include 'helpers/topBar/index.php' ?>
     <!-- Top Bar End -->
     <!-- Nav Bar Start -->
-    <?php include 'helpers/navbar/causes.php' ?>
+    <?php include 'helpers/navbar/index.php' ?>
     <!-- Nav Bar End -->
     <!-- Page Header Start -->
     <div class="page-header">
@@ -120,4 +120,5 @@ $result = mysqli_query($connect, $query);
         });
     </script>
 </body>
+
 </html>
