@@ -572,9 +572,9 @@ a:focus {
 /*******************************/
 .page-header {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 100px;
-  padding: 100px 0 30px 0;
+  padding: 100px 0 10px 0;
   text-align: center;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/topper.webp); */
@@ -589,7 +589,7 @@ a:focus {
   color: #f27d2d;
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 5px;
 }
 
@@ -623,7 +623,7 @@ a:focus {
   top: -2px;
   right: -7px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .page-header a:last-child::after {
