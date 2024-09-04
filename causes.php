@@ -17,18 +17,12 @@
                     </div>
                     <div class="col-12">
                         <a href="index.php">Home</a>
-                        <a href="#">Causes</a>
+                        <a href="#">What we do</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
-        <!-- Service Start -->
-        <?php include 'helpers/coreValues/index.php' ?>
-        <!-- Service End -->
-         <!-- Causes Start -->
-        <?php include 'helpers/volunteer/index.php' ?>
-        <!-- Causes End -->
         <!-- Projects Start -->
         <?php include 'helpers/projects/index.php' ?>
         <!-- Projects End -->
@@ -36,6 +30,9 @@
         <?php include 'helpers/whatWeDo/index.php' ?>
         <?php include 'helpers/whatWeDo/index2.php' ?>
         <!-- What we do End -->
+         <!-- Causes Start -->
+        <?php include 'helpers/volunteer/index.php' ?>
+        <!-- Causes End -->
         <!-- Footer Start -->
         <?php include 'helpers/footer/index.php' ?>
         <!-- Footer End -->
