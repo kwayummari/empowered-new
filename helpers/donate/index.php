@@ -31,6 +31,13 @@
                 </div>
             </div>
         </div>
-        <button type="button" class="btn btn-primary w-100 mt-3">Donate Now</button>
+        <button type="button" class="btn btn-primary w-100 mt-3" id="donateBtn">Donate Now</button>
     </div>
 </div>
+
+<script>
+    document.getElementById("donateBtn").addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("Thank you for your generosity! Please contact us via email at info@empoweredforchange.or.tz to get more details on how you can contribute to our cause.");
+    });
+</script>
