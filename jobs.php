@@ -31,7 +31,6 @@ $result = mysqli_query($connect, $query);
         <div class="container">
             <div class="section-header text-center">
                 <p>Jobs Adverts</p>
-                <h2>Our latest Jobs adverts</h2>
             </div>
             <div class="row">
                 <?php while ($jobs = mysqli_fetch_assoc($result)) { ?>
