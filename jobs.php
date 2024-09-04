@@ -34,8 +34,8 @@ $result = mysqli_query($connect, $query);
             </div>
             <div class="row justify-content-center">
                 <?php while ($jobs = mysqli_fetch_assoc($result)) { ?>
-                    <div class="col-lg-4">
-                        <div class="blog-item d-flex justify-content-center"
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="blog-item"
                             data-bs-toggle="modal" data-bs-target="#blogModal"
                             data-title="<?php echo htmlspecialchars($jobs['title']); ?>"
                             data-caption="<?php echo htmlspecialchars($jobs['caption']); ?>"
