@@ -3,7 +3,7 @@
                 <div class="owl-carousel">
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/slider/women.webp" alt="Image" />
+                            <img src="img/slider/front1.webp" alt="Image" />
                         </div>
                         <div class="carousel-text">
                             <p style="text-align: right;">
@@ -13,7 +13,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/slider/women2.webp" alt="Image">
+                            <img src="img/slider/front2.webp" alt="Image">
                         </div>
                         <div class="carousel-text">
                             <p style="text-align: right;">
@@ -23,7 +23,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/slider/women1.webp" alt="Image">
+                            <img src="img/slider/front3.webp" alt="Image">
                         </div>
                         <div class="carousel-text" style="align-items: right;">
                             <p style="text-align: right;">
