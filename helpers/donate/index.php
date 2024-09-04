@@ -1,5 +1,5 @@
 <div class="section-header text-center">
-    <p>DONATE TODAY</p>
+    <p>Donate Today</p>
 </div>
 <div class="d-flex justify-content-center align-items-center bg-light">
     <div class="card p-4" style="max-width: 400px; width: 100%;">
