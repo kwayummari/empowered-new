@@ -1,6 +1,8 @@
 <br><br>
+<div class="container">
 <div class="section-header text-center">
     <p>OUR IMPACT</p>
+</div>
 </div>
 <div class="facts" data-parallax="scroll" data-image-src="img/topper.webp">
             <div class="container">
