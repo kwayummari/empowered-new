@@ -1,7 +1,7 @@
 <div class="service">
     <div class="container">
         <div class="section-header text-center">
-            <h2>Our Technical Approach</h2>
+            <p>Our Technical Approach</p>
         </div>
         <div class="row">
             <!-- Equality -->
