@@ -4,7 +4,7 @@
     <p>Our Impact</p>
 </div>
 </div>
-<div class="facts" data-parallax="scroll" data-image-src="img/topper1.webp">
+<div class="facts" data-parallax="scroll" data-image-src="img/topper4.webp">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
