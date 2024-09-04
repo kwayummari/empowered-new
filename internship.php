@@ -27,33 +27,36 @@ $result = mysqli_query($connect, $query);
     </div>
     <!-- Page Header End -->
     <!-- Blog Start -->
-    <div class="blog">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Our Internship</p>
-            </div>
-            <div class="row justify-content-center">
-                <?php while ($internship = mysqli_fetch_assoc($result)) { ?>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="blog-item"
-                            data-bs-toggle="modal" data-bs-target="#blogModal"
-                            data-title="<?php echo htmlspecialchars($internship['title']); ?>"
-                            data-caption="<?php echo htmlspecialchars($internship['caption']); ?>"
-                            data-description="<?php echo htmlspecialchars($internship['description']); ?>"
-                            data-image="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>">
-                            <div class="blog-img">
-                                <img src="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#"><?php echo htmlspecialchars($internship['title']); ?></a></h3>
-                                <p><?php echo htmlspecialchars($internship['caption']); ?></p>
-                            </div>
-                        </div>
+     <?php
+    if (mysqli_num_rows($result) > 0) {
+?>
+    <!-- If there are internships, display them -->
+    <div class="row justify-content-center">
+        <?php while ($internship = mysqli_fetch_assoc($result)) { ?>
+            <div class="col-lg-4 d-flex justify-content-center">
+                <div class="blog-item"
+                    data-bs-toggle="modal" data-bs-target="#blogModal"
+                    data-title="<?php echo htmlspecialchars($internship['title']); ?>"
+                    data-caption="<?php echo htmlspecialchars($internship['caption']); ?>"
+                    data-description="<?php echo htmlspecialchars($internship['description']); ?>"
+                    data-image="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>">
+                    <div class="blog-img">
+                        <img src="https://empoweredforchange.or.tz/img/internship/<?php echo htmlspecialchars($internship['image']); ?>" alt="Image">
                     </div>
-                <?php } ?>
+                    <div class="blog-text">
+                        <h3><a href="#"><?php echo htmlspecialchars($internship['title']); ?></a></h3>
+                        <p><?php echo htmlspecialchars($internship['caption']); ?></p>
+                    </div>
+                </div>
             </div>
-        </div>
+        <?php } ?>
     </div>
+<?php
+} else {
+    // If no internships are found, display a message
+    echo '<p class="text-center">There is no open internship opportunity for now.</p>';
+}
+?>
     <!-- Blog End -->
     <!-- Modal -->
     <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="blogModalLabel" aria-hidden="true">
