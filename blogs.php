@@ -1,6 +1,6 @@
 <?php
 include 'admin/connection/index.php';
-$query = "SELECT * FROM blogs ORDER BY id DESC";
+$query = "SELECT * FROM blogs WHERE status = 1 ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
 ?>
 <!DOCTYPE html>
@@ -30,27 +30,31 @@ $result = mysqli_query($connect, $query);
     <div class="blog">
         <div class="container">
             <div class="section-header text-center">
-                <p>Latest News and Insights</p>
+                <p>News And Updates</p>
             </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 <?php while ($blog = mysqli_fetch_assoc($result)) { ?>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="blog-item"
+                    <div class="col-lg-4 mb-4 <?php if ($num_items < 3) echo 'mx-auto'; ?>">
+                        <div class="blog-item h-100"
                             data-bs-toggle="modal" data-bs-target="#blogModal"
-                            data-title="<?php echo htmlspecialchars($blog['title']); ?>"
-                            data-caption="<?php echo htmlspecialchars($blog['caption']); ?>"
-                            data-description="<?php echo htmlspecialchars($blog['description']); ?>"
-                            data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>">
-                            <div class="blog-img">
-                                <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image']); ?>" alt="Image">
+                            data-title="<?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?>"
+                            data-caption="<?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?>"
+                            data-description="<?php echo htmlspecialchars(nl2br($blog['description']), ENT_QUOTES, 'UTF-8'); ?>"
+                            data-image="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                            <div class="blog-img" style="width: 100%; height: 400px; overflow: hidden;">
+                                <img src="https://empoweredforchange.or.tz/img/blogs/<?php echo htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8'); ?>"
+                                    alt="Image"
+                                    class="img-fluid w-100 h-100"
+                                    style="object-fit: cover; object-position: center;">
                             </div>
-                            <div class="blog-text">
-                                <h3><a href="#"><?php echo htmlspecialchars($blog['title']); ?></a></h3>
-                                <p><?php echo htmlspecialchars($blog['caption']); ?></p>
+
+                            <div class="blog-text p-3" style="height: 150px;">
+                                <h3><a href="#" class="text-dark"><?php echo htmlspecialchars($blog['title'], ENT_QUOTES, 'UTF-8'); ?></a></h3>
+                                <p><?php echo htmlspecialchars($blog['caption'], ENT_QUOTES, 'UTF-8'); ?></p>
                             </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="#">EMPOWERED FOR CHANGE</a></p>
-                            </div>
+                            <!-- <div class="blog-meta p-3">
+                            <p><i class="fa fa-user"></i> <a href="#">EMPOWERED FOR CHANGE</a></p>
+                        </div> -->
                         </div>
                     </div>
                 <?php } ?>
