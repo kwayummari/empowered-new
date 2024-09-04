@@ -59,7 +59,7 @@ $result = mysqli_query($connect, $query);
 <?php
 } else {
     // If no internships are found, display a message
-    echo '<p class="text-center">There is no open internship opportunity for now.</p>';
+    echo '<p class="text-center">There is no open job opportunity for now.</p>';
 }
 ?>
         </div>
