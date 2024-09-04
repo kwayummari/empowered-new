@@ -330,12 +330,12 @@ a:focus {
 
   .navbar.nav-sticky {
     padding: 10px 60px;
-    background: #20212b !important;
+    background: #ffffff !important;
     border-bottom: none;
   }
 
   .page .navbar {
-    background: #20212b !important;
+    background: #ffffff !important;
   }
 
   .navbar a.nav-link {
