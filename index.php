@@ -21,9 +21,6 @@
     <!-- Facts Start -->
     <?php include 'helpers/facts/index.php' ?>
     <!-- Facts End -->
-    <!-- Causes Start -->
-    <?php include 'helpers/causes/index.php' ?>
-    <!-- Causes End -->
     <!-- Blog Start -->
     <?php include 'helpers/blog/index.php' ?>
     <!-- Blog End -->
