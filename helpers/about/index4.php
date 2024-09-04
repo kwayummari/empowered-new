@@ -1,16 +1,8 @@
 <div class="about">
     <div class="container">
         <div class="row align-items-center">
-            <!-- <div class="col-lg-6">
-                <div class="about-img" data-parallax="scroll" data-image-src="img/about/about.webp"></div>
-            </div> -->
             <div class="col-lg-12">
-                <div class="section-header">
-                    <!-- <p>Learn About Us</p>
-                    <h2>EMPOWERED FOR CHANGE</h2> -->
-                </div>
                 <div>
-                    <br><br>
                     <div class="col-lg-12">
                         <center><a class="nav-link" data-toggle="pill" href="#tab-content-2" style="font-size: 30px;">
                                 <i class="fas fa-bullseye" style="font-size: 40px;"></i> Mission
