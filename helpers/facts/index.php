@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="facts-item">
-                            <img src="img/icons/1.jpg" height="40px"/>
+                            <img src="img/icons/3.png" height="40px"/>
                             <div class="facts-text">
                                 <h3 class="facts-percentage" data-toggle="counter-up">12</h3>
                                 <p>Increased SRH/FP budget allocation</p>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="facts-item">
-                        <img src="img/icons/2.webp" height="40px"/>
+                        <img src="img/icons/4.png" height="40px"/>
                             <div class="facts-text">
                                 <h3 class="facts-percentage" data-toggle="counter-up">17</h3>
                                 <p>Increased budget allocation for people with disability</p>
