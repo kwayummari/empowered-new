@@ -1,7 +1,7 @@
 <div class="service">
     <div class="container">
         <div class="section-header text-center">
-            <p>OUR CORE VALUES</p>
+            <p>Our Core Values</p>
         </div>
         <div class="row">
             <!-- Equality -->
