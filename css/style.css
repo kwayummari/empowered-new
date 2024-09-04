@@ -572,9 +572,9 @@ a:focus {
 /*******************************/
 .page-header {
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   margin-top: 100px;
-  padding: 100px 0 90px 0;
+  padding: 100px 0 30px 0;
   text-align: center;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/topper.webp); */
@@ -606,7 +606,8 @@ a:focus {
 .page-header a {
   position: relative;
   padding: 0 12px;
-  font-size: 22px;
+  font-size: 60px;
+  font-weight: 700;
   color: #000000;
 }
 
