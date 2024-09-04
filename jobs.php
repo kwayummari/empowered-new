@@ -32,10 +32,10 @@ $result = mysqli_query($connect, $query);
             <div class="section-header text-center">
                 <p>Jobs Adverts</p>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <?php while ($jobs = mysqli_fetch_assoc($result)) { ?>
                     <div class="col-lg-4">
-                        <div class="blog-item"
+                        <div class="blog-item d-flex justify-content-center"
                             data-bs-toggle="modal" data-bs-target="#blogModal"
                             data-title="<?php echo htmlspecialchars($jobs['title']); ?>"
                             data-caption="<?php echo htmlspecialchars($jobs['caption']); ?>"
