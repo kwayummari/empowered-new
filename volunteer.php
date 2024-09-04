@@ -12,17 +12,14 @@ $result = mysqli_query($connect, $query);
     <?php include 'helpers/topBar/index.php' ?>
     <!-- Top Bar End -->
     <!-- Nav Bar Start -->
-    <?php include 'helpers/navbar/causes.php' ?>
+    <?php include 'helpers/navbar/index.php' ?>
     <!-- Nav Bar End -->
     <!-- Page Header Start -->
     <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- <h2>Become a volunteer</h2> -->
-                </div>
-                <div class="col-12">
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home /</a>
                     <a href="">volunteer</a>
                 </div>
             </div>
@@ -79,4 +76,5 @@ $result = mysqli_query($connect, $query);
         });
     </script>
 </body>
+
 </html>
