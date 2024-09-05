@@ -33,9 +33,9 @@
     <!-- Back to top button -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <!-- Pre Loader -->
-    <div id="loader" class="show">
+    <!-- <div id="loader" class="show">
         <div class="loader"></div>
-    </div>
+    </div> -->
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
